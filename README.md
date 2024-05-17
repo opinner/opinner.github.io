@@ -1,21 +1,21 @@
 # I don't even know best practices!
 
-This is talk given at the AWI PhD Days 2024.
+>This is an 8 minutes talk given at the AWI PhD Days 2024.
+>The rendered html slides from this source code can be found at (https://opinner.github.io/)
+>This presentation contains the option of doing live polls of the audience with [directpoll](https://directpoll.com).
 
-The rendered html slides can be found at [https://opinner.github.io/]
+After over 3 years of doing my PhD I am still unsure what the best practices are. 
+But I can at least show other people what I learned outside the scientific papers I published. 
+A non-exhaustive list of topics I want to discuss with other are
+- Software recommendations
+- Workflow examples
+- Advice for science communication
+- Gender & Diversity information
 
+Most of my notes I deem even slightly interesting to other people are found at my [OceanAtmosWiki](ocean.miraheze.org/)
 
+## GitHub Pages Slideshow
 
-# GitHub Pages Slideshow with [Remark](https://github.com/gnab/remark)
-
-This template is made from [Remark](https://github.com/gnab/remark), an open source tool to help create and display slideshows from markdown. For questions, see [Remark's documentation](https://github.com/gnab/remark).
-
-The most important things to know are:
-- Enable GitHub Pages from `master` for the slides to work
-- Once enabled, the slides will be visible at `https://USERNAME.github.io/REPOSITORY-NAME/#1`, like https://brianamarie.github.io/slideshow-on-pages/#1
-- Edit the `index.html` file to edit the slides
-- Slides are separated by `----`
-- Presenter notes after `???` within one slide
-- Toggle presenter notes during presentation with `P`
-
-Fork this repository to get started!
+This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [empty link].
+The resulting repository can be hosted by github.pages. 
+Presenter notes are toggled during presentation with `P`
