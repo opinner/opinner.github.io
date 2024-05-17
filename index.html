@@ -38,10 +38,8 @@ html meta data and properties
 </style>
   
 <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
-<!--
-Less usefull for talks, but good for static websitres, the nutshell script
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
--->
+
 </head>
 <body>
   <textarea id="source">
@@ -106,10 +104,10 @@ Less usefull for talks, but good for static websitres, the nutshell script
     ---
     # How do I take notes?
 
-    - paper note book\:
+    - paper note book:
 	    - Sketches
 	    - specific thesis related thoughts 
-    - Wiki\:
+    - Wiki:
 	    - Software
 	    - regulations
 	    - general advice
@@ -129,7 +127,10 @@ Less usefull for talks, but good for static websitres, the nutshell script
 
     # Zotero
 
-    <img src="Zotero_example.png" width="400" height="400">
+    <!-- <img src="Zotero_example.png" width="400" height="400"> -->
+
+    - Export .bib files, which can be linked to Overleaf to automatically update
+    - Citation in Word with the Zotero plugin 
 
     ---
 
@@ -151,15 +152,20 @@ Less usefull for talks, but good for static websitres, the nutshell script
 
     # Further Links
 
-    - Online Notes\: [OceanAtmosWiki](https://ocean.miraheze.org/wiki/Main_Page)
+    - Online Notes: [OceanAtmosWiki](https://ocean.miraheze.org/wiki/Main_Page)
         
 
+    --- 
+    # Fun with Github pages
     <!-- To prevent unwanted interaction between remark and nutshell, this cannot be the end of a slide -->
-    #:x Testsection
-    This is an extendable footnote
-            
-    # Nutshell Test  
-    [:test](#Testsection)
+    #:x footnote
+    This is an extendable footnote, which can be even [:nested](#nested).
+    
+    #:x nested
+    See [nutshell](https://github.com/ncase/nutshell) for a guide and code
+
+              
+    [:Expand me](#footnote)
 
 
 
