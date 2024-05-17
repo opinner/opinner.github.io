@@ -17,13 +17,34 @@ html meta data and properties
     font-weight: normal;
   }
   .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+
+  /* Styling specifically for the title slide */
+  .title-slide {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   text-align: center;
+   background: linear-gradient(135deg, #4a90e2, #9013fe);
+   color: white;
+   }
+   .title-slide h1 {
+        font-size: 4em;
+        margin: 0;
+   }
+   .title-slide h2 {
+        font-size: 2em;
+        margin: 0;
+    }
 </style>
+  
 <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
 </head>
 <body>
   <textarea id="source">
-    class: center, middle
+    class: title-slide
     # I don't even know best practices
 
     <!--
