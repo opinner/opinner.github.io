@@ -17,5 +17,4 @@ Most of my notes I deem even slightly interesting to other people are found at m
 ## GitHub Pages Slideshow
 
 This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [githubtraining/slideshow-on-pages](https://github.com/githubtraining/slideshow-on-pages).
-The resulting repository can be hosted by github.pages. 
-Presenter notes are toggled during presentation with `P`
+Presenter notes are toggled during presentation with `P`, a second screen is openend with `C`. 
