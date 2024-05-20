@@ -6,15 +6,18 @@
 
 After over 3 years of doing my PhD I am still unsure what the best practices are. 
 But I can at least show other people what I learned outside the scientific papers I published. 
-A non-exhaustive list of topics I want to discuss with other are
+As this talk had to be quite short I only cover:
+1. Version Control (with git)
+2. Notes
+3. Citation management 
+Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/)
+
+A non-exhaustive list of topics I would like to discuss with others are
 - Software recommendations
 - Workflow examples
 - Advice for science communication
 - Gender & Diversity information
 
-Most of my notes I deem even slightly interesting to other people are found at my [OceanAtmosWiki](ocean.miraheze.org/)
-
 ## GitHub Pages Slideshow
-
 This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [githubtraining/slideshow-on-pages](https://github.com/githubtraining/slideshow-on-pages).
-Presenter notes are toggled during presentation with `P`, a second screen is openend with `C`. 
+Presenter notes are toggled during presentation with `P`, a second screen is opened with `C`. 
