@@ -7,8 +7,8 @@
 After over 3 years of doing my PhD I am still unsure what the best practices are. 
 But I can at least show other people what I learned outside the scientific papers I published. 
 As this talk had to be quite short I only cover:
-1. Version Control (with git)
-2. Notes
+1. Version Control 
+2. Notes (short-term and long-term)
 3. Citation management 
 Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/)
 
