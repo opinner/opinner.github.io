@@ -21,6 +21,7 @@ html meta data and properties
     /* Styling specifically for the title slide */
     .title-slide {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -28,12 +29,12 @@ html meta data and properties
       background-color: white;
     }
     .title-slide h1 {
-      font-size: 3em;  /* Adjust the title size as needed */
-      margin: 0;
+      font-size: 3em;  /* Adjust the size as needed */
+      margin-bottom: 20px;
     }
-    .title-slide h2 {
-      font-size: 2em;
-      margin: 0;
+    .title-slide img {
+      width: 400px; /* Adjust the size as needed */
+      height: 400px;
     }
 </style>
   
@@ -45,17 +46,16 @@ html meta data and properties
   <textarea id="source">
 
     class: title-slide
+
     # I don't even know best practices
-    
-    <!--
-    The title slide uses a custom css class to formate it differently from the rest of the slides
-    -->
+
+    <img src="https://etc.ch/FDjg?qr" width="400" height="400">
         
     ---
     
     <!--
     Start of the slide  contents, almost all written in markdown 
-    The alignement of each slides can be controled by class properties
+    The alignement of each slides can be controlled by class properties
     https://github.com/gnab/remark/wiki/Formatting#whole-slide-text-alignment
     -->
     
