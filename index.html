@@ -52,13 +52,12 @@ html meta data and properties
       max-height: 100%;
     }  
     
-     /* Left align the qr code */
     .qr-code-container {
       position: absolute;
-      top: 0;
-      right: 0;
-      margin-top: 20px;
-      margin-right: 20px;
+      bottom: 0; /* Position at the bottom */
+      right: 0;   /* Position at the left */
+      margin-bottom: 20px; /* Add margin from the bottom */
+      margin-right: 20px;   /* Add margin from the right */
 }
 </style>
   
@@ -101,7 +100,7 @@ Nutshell.setOptions({
     - funding opportunities
 
     <div class="qr-code-container">
-      <img src="https://etc.ch/FDjg?qr" width="300" height="300">
+      <img src="https://etc.ch/FDjg?qr" width="400" height="400">
     </div>
 
     ---
