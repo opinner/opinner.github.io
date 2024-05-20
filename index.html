@@ -21,7 +21,7 @@ Nutshell.setOptions({
   <textarea id="source">
 
     class: title-slide
-
+    <!-- all slide designs are are defined in /css/styles.css -->
     # I don't even know best practices
 
     <img src="https://etc.ch/FDjg?qr" width="400" height="400">
@@ -30,11 +30,7 @@ Nutshell.setOptions({
     
     ---
     
-    <!--
-    Start of the slide  contents, almost all written in markdown 
-    The alignement of each slides can be controlled by class properties
-    https://github.com/gnab/remark/wiki/Formatting#whole-slide-text-alignment
-    -->
+    <!-- Start of the talk slides, almost all written in markdown -->
     
     # "Knowledge Transfer"
 
@@ -45,7 +41,7 @@ Nutshell.setOptions({
     - details of previous work
     - funding opportunities
 
-    <div class="qr-code-container">
+    <div class="right-image-container">
       <img src="https://etc.ch/FDjg?qr" width="400" height="400">
     </div>
 
@@ -54,7 +50,7 @@ Nutshell.setOptions({
     # Question: Version Control
 
     <iframe 
-    src="https://directpoll.com/r?XDbzPBdVAP0I8ahrHBODeMZGU1xZ0drqlKnyHgFwSfQza2"
+    src="https://directpoll.com/r?XDbzPBdWBQ1J9bisICPEfNaHV2ya1esrmLozIhGxTgR0b3" 
     width="800"  
     height="400">  
     </iframe>
@@ -67,22 +63,20 @@ Nutshell.setOptions({
     - *git* is the most popular way to do it
     - Online storage: Github, Gitlab, etc
 
+    <div class="right-image-container">
+      <img src="https://phdcomics.com/comics/archive/phd101212s.gif" width="400" height="400">
+    </div>
+
     ---
 
     # Question: Notes
 
     <iframe 
-    src="https://directpoll.com/r?XDbzPBdWBQ1J9bisICPEfNaHV2ya1esrmLozIhGxTgR0b3"
+    src="https://directpoll.com/r?XDbzPBdXCR2KAcjtJDQFgObIW3zb2ftsnMp0JiHyUhS1c4"
     width="800"  
     height="400">  
     </iframe>
 
-    ---
-    
-    # How do I take notes?
-     <div class="center-image-container">
-      <img class="center-image" src="/pictures/notes_graph.svg" width="500" height="500">
-    </div>
 
     ---
     
@@ -104,34 +98,36 @@ Nutshell.setOptions({
 
     ---
 
-    # Zotero
-
     <!-- <img src="Zotero_example.png" width="400" height="400"> -->
-
-    - Export .bib files, which can be linked to Overleaf to update automatically
-    - Zotero plugin in Microsoft Word for automatic citations
-    - Install [:add-ons](#add-ons) to support your use case
-
     #:x add-ons
-    Currently I use 
+    I use currently 
     - [Better Bibtex for Zotero](https://retorque.re/zotero-better-bibtex/)
     - [Folder Import for Zotero](https://github.com/retorquere/zotero-folder-import)
     - [ZotFile](https://zotfile.com/)
+
+    # Zotero    
+    - Export .bib files, which can be linked to a project in Overleaf to update automatically
+    - Zotero plugin in Microsoft Word for automatic citations
+    - To help and shape your use-case, install [:add-ons](#add-ons)
+
+
     
     ---
 
     # Conclusion 
 
-    - Set your repositories to be public (after you are done with them)
-    - Write things down in such a way that you and others could find it again
+    - Set your repositories to be public (at least after you are done with them)
+    - Write things down in such a way that you and others could find them again
     - Tell others how to avoid the problems you encountered
 
 
     ---
     
     # Slides and Source code
-    <img src="/pictures/self_link_qrcode.png" width="400" height="400">
-
+    <div class="center-image-container">
+      <img src="/pictures/self_link_qrcode.png" width="400" height="400">
+    </div>
+    
     [opinner.github.io](https://github.com/opinner/opinner.github.io)
 
 
