@@ -2,7 +2,7 @@
 
 >This is an 8 minutes talk given at the AWI PhD Days 2024.
 >The rendered html slides from this source code can be found at [opinner.github.io](https://opinner.github.io/)
->This presentation contains the option of doing live polls of the audience with [directpoll](https://directpoll.com).
+>This presentation contains the option of doing live polls of the audience with [DirectPoll](https://directpoll.com).
 
 After over 3 years of doing my PhD I am still unsure what the best practices are. 
 But I can at least show other people what I learned outside the scientific papers I published. 
