@@ -23,7 +23,7 @@
       height: 100vh;
       text-align: center;
       background-color: white;
-      padding: 20px; /* Added padding to avoid cutting off content */
+      padding: 50px; /* Added padding to avoid cutting off content */
       box-sizing: border-box;
     }
     .title-slide h1 {
@@ -52,7 +52,7 @@
       position: absolute;
       bottom: 0; /* Position at the bottom */
       right: 0;   /* Position at the right */
-      margin-bottom: 20px; /* Add margin from the bottom */
+      margin-bottom: 30px; /* Add margin from the bottom */
       margin-right: 20px;   /* Add margin from the right */
     }
 </style>
