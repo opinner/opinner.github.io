@@ -51,9 +51,9 @@
     .qr-code-container {
       position: absolute;
       bottom: 0; /* Position at the bottom */
-      right: 0;   /* Position at the left */
+      right: 0;   /* Position at the right */
       margin-bottom: 20px; /* Add margin from the bottom */
       margin-right: 20px;   /* Add margin from the right */
-}
+    }
 </style>
 
