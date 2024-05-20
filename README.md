@@ -9,7 +9,8 @@ But I can at least show other people what I learned outside the scientific paper
 As this talk had to be quite short I only cover:
 1. Version Control 
 2. Notes (short-term and long-term)
-3. Citation management 
+3. Citation management
+   
 Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/)
 
 A non-exhaustive list of topics I would like to discuss with others are
