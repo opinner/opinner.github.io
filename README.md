@@ -11,9 +11,7 @@ As this talk had to be quite short I only cover:
 2. Notes (short-term and long-term)
 3. Citation management
    
-Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/)
-
-A non-exhaustive list of topics I would like to discuss with others are [Software recommendations](https://ocean.miraheze.org/wiki/Software_recommendations), Workflow examples, [Advice for science communication](https://ocean.miraheze.org/wiki/Science_Communication), [Gender & Diversity information](https://ocean.miraheze.org/wiki/Gender_equity)
+Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/). Some topics in a non-exhaustive list, I write notes about are [Software recommendations](https://ocean.miraheze.org/wiki/Software_recommendations), Workflow examples, [Advice for science communication](https://ocean.miraheze.org/wiki/Science_Communication), [Gender & Diversity information](https://ocean.miraheze.org/wiki/Gender_equity)
 
 ## GitHub Pages Slideshow
 This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [githubtraining/slideshow-on-pages](https://github.com/githubtraining/slideshow-on-pages).
