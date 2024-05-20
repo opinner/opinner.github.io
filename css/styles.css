@@ -23,16 +23,17 @@
       height: 100vh;
       text-align: center;
       background-color: white;
-      padding: 50px; /* Added padding to avoid cutting off content */
+      padding: 40px; /* Added padding to avoid cutting off content */
       box-sizing: border-box;
     }
     .title-slide h1 {
       font-size: 2.5em;  /* Adjust the size as needed */
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     .title-slide img {
       width: 400px; /* Adjust the size as needed */
       height: 400px;
+      margin-bottom: 10px;
     }
     
      /* Center image class */
