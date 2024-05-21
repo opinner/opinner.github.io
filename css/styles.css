@@ -53,7 +53,11 @@
     .img-right {
       margin-left: 300px; /* Adjust the value as needed */
     }
-    
+
+    .img-bit-right {
+      margin-left: 30px; /* Adjust the value as needed */
+    }
+        
     .qr-code-container {
       position: absolute;
       bottom: 0; /* Position at the bottom */
