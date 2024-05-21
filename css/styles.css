@@ -50,6 +50,10 @@
       max-height: 100%;
     }  
     
+    .img-right {
+      margin-left: 50px; /* Adjust the value as needed */
+    }
+    
     .qr-code-container {
       position: absolute;
       bottom: 0; /* Position at the bottom */
