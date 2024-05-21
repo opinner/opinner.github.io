@@ -1,6 +1,6 @@
 # I don't even know best practices!
 >This is an 8 minutes talk given at the AWI PhD Days 2024.
->The rendered html slides from this source code can be found at [opinner.github.io](https://opinner.github.io/)
+>The rendered html slides from this source code can be found at [opinner.github.io](https://opinner.github.io/).
 >This presentation contains the option of doing live polls of the audience with [DirectPoll](https://directpoll.com).
 >Extra info can be accessed by clicking the words underlined with fine dots.
 
@@ -19,5 +19,5 @@ Most of my notes I deem even slightly interesting to other people can be found a
 
 ## Slideshow with GitHub Pages 
 This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [githubtraining/slideshow-on-pages](https://github.com/githubtraining/slideshow-on-pages).
-Presenter notes are toggled during presentation with `P`, a second screen is opened with `C`. The extension are possible through [nutshell](https://github.com/ncase/nutshell)
+Presenter notes are toggled during presentation with `P`, a second screen is opened with `C`. The extension are possible through [nutshell](https://github.com/ncase/nutshell).
 I cannot really recommend this way for making an easy, quick presentation, but for any kind of interactive slides, it is very useful.
