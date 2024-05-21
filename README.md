@@ -12,7 +12,7 @@ As this talk had to be quite short I only cover:
 3. Citation management
 
    
-Any comments or questions about this talk can be left at the [discussions page](https://github.com/opinner/opinner.github.io/discussions)
+Any comments or questions about this talk can be left at the [discussions page](https://github.com/opinner/opinner.github.io/discussions).
 
 ---
 Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/). Some topics in a non-exhaustive list, I write notes about are [Software recommendations](https://ocean.miraheze.org/wiki/Software_recommendations), Workflow examples, [Advice for science communication](https://ocean.miraheze.org/wiki/Science_Communication), [Gender & Diversity information](https://ocean.miraheze.org/wiki/Gender_equity)
