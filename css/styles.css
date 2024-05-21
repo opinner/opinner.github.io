@@ -12,6 +12,7 @@
     /* Global font size for all slides */
     .remark-slide-content {
       font-size: 24px; /* Adjust the font size as needed */
+      z-index: 10
     }
     
     /* Styling specifically for the title slide */
