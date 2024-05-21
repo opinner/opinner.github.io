@@ -56,7 +56,7 @@
       right: 0;   /* Position at the right */
       margin-bottom: 30px; /* Add margin from the bottom */
       margin-right: 20px;   /* Add margin from the right */
-      z-index: 1
+      z-index: 0
     }
 </style>
 
