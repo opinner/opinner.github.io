@@ -15,9 +15,11 @@ As this talk had to be quite short I only cover:
 Any comments or questions about this talk can be left at the [discussions page](https://github.com/opinner/opinner.github.io/discussions).
 
 ---
-Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/). Some topics in a non-exhaustive list, I write notes about are [Software recommendations](https://ocean.miraheze.org/wiki/Software_recommendations), Workflow examples, [Advice for science communication](https://ocean.miraheze.org/wiki/Science_Communication), [Gender & Diversity information](https://ocean.miraheze.org/wiki/Gender_equity)
+Most of my notes I deem even slightly interesting to other people can be found at [OceanAtmosWiki](ocean.miraheze.org/). Some topics in a non-exhaustive list, I write notes about are [Software recommendations](https://ocean.miraheze.org/wiki/Software_recommendations), Workflow examples, [Advice for science communication](https://ocean.miraheze.org/wiki/Science_Communication), [Gender & Diversity information](https://ocean.miraheze.org/wiki/Gender_equity).
 
 ## Slideshow with GitHub Pages 
 This presentation was made with [Remark](https://github.com/gnab/remark), based on a template forked from [githubtraining/slideshow-on-pages](https://github.com/githubtraining/slideshow-on-pages).
-Presenter notes are toggled during presentation with `P`, a second screen is opened with `C`. The extension are possible through [nutshell](https://github.com/ncase/nutshell).
+Presenter notes are toggled during presentation with `P`, a second screen is opened with `C`. The extension are possible through [nutshell](https://github.com/ncase/nutshell). Most of the css code was written with the help of ChatGPT. 
+
+
 I cannot really recommend this way for making an easy, quick presentation, but for any kind of interactive slides, it is very useful.
