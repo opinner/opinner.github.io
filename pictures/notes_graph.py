@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import matplotlib.font_manager as fm
 
 # Load the xkcd script font, which has to be downloaded first from https://github.com/ipython/xkcd-font
