@@ -26,7 +26,7 @@ Nutshell.setOptions({
     class: title-slide
     <!-- all slide designs are are defined in /css/styles.css -->
 
-    #:x test
+    # test
     ... to get more info. Look through the slides to find additional comments of mine.
     
     <!-- PRESENTATION TITLE -->
@@ -35,13 +35,34 @@ Nutshell.setOptions({
     
     > Any text that [:looks like this, can be expanded ...](#test)
     
-    > This is a [:test to see of it works](#test)
+    > This is a [:test to see of it works](# test)
     
     ---
     
     # test title
     
     hello?
+
+    ##:x test2
+    ... to get more info. Look through the slides to find additional comments of mine.
+    
+    ##test3
+    ... to get more info. Look through the slides to find additional comments of mine.
+      
+    
+    > Any text that [:looks like this, can be expanded ...](##test3)
+      or {:maybe like this](## test2)
+    ---
+
+          </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
+
 
     <!--
     commands to render to html with remark https://github.com/gnab/remark
