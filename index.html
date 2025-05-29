@@ -12,7 +12,7 @@ html meta data and properties
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" type="text/css" href="/css/styles.css">  <!-- all slide designs are defined in /css/styles.css -->
 <!-- nutshell + katex  -->
-<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.2/nutshell.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
 <script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script> 
 <script>
 window.MathJax = {
@@ -87,21 +87,33 @@ window.MathJax = {
 
     ## Wikipedia Nutshell test 
 
-    [:looks like this, can be expanded ...](http://wikipedia.org/turbulence)
+    [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
+
+    [:maybe this?](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/grl.50542)
+
+    ---
+
+    #:x footnote
+    A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
+    is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
+
+    Also, AWI has its own [GitLab server](https://gitlab.awi.de).
+    
+    #:x git
+    The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
+    gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
+    
+    
+    # Version Control
+
+    If you code (or maybe just only write), you should use a version controlled back-up
+    - [:git](#git) is the most popular way to do it
+    - Online storage: [:Github, Gitlab, etc](#footnote) 
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">  </script>
     <script>
       var slideshow = remark.create();
     </script>
-  </body>
-</html>
-
-
-    <!--
-    commands to render to html with remark https://github.com/gnab/remark
-    -->
-    </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js"> </script>
   </body>
 </html>
