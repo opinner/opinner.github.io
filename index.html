@@ -27,88 +27,72 @@ window.MathJax = {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
-<!-- To automatically render math in text elements, include the auto-render extension: -->
-<!-- The loading of KaTeX is deferred to speed up page rendering -->
-<!--
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
--->
-
 </head>
 <body>
   <textarea id="source">
 
-    class: title-slide
-    <!-- all slide designs are are defined in /css/styles.css -->
+class: title-slide
+<!-- all slide designs are are defined in /css/styles.css -->
 
-    # test
-    ... to get more info. Look through the slides to find additional comments of mine.
-    
-    <!-- PRESENTATION TITLE -->
-    # Marine Turbulence
-    Ole Pinner
-    
-    > Any text that [:looks like this, can be expanded ...](#test)
-    
-    > This is a [:test to see of it works](# test)
-    
-    ---
-    
-    # test title
-    
-    hello?
+<!-- PRESENTATION TITLE -->
+# Marine Turbulence
+Ole Pinner
 
-    ##:x hidden header 2
-    hidden more info 
-    
-    ## header 3
-    visible cross reference to more info 
-      
-    
-    > Any text that [:looks like this, can be expanded ...](##:x hidden header 2) or [:maybe like this](## header 3)
-    
-    Or [:more like this?](## hidden header 2)
+---
 
-    ---
+## test slide title
 
-    ## MathJax test
+hello?
 
-    This should be  $\pm\sqrt{a^2 + b^2}$ rendered by: 
-    ```
-    $\pm\sqrt{a^2 + b^2}$
-    ```
-    This is subsequent text and a test of autorender.
-    The expected value or ensemble mean of $z(t)$ is
-    $$\eta(t)\equiv\mathrm{E}z(t)$$
+#:x hidden header 2
+hidden more info 
 
-    ---
+# header 3
+visible cross reference to more info 
 
-    ## Wikipedia Nutshell test 
 
-    [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
+> Any text that [:looks like this, can be expanded ...](#:x hidden header 2) or [:maybe like this](# header 3)
 
-    [:maybe this?](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/grl.50542)
+Or [:more like this?](# hidden header 2)
 
-    ---
+---
 
-    #:x footnote
-    A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
-    is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
+# MathJax test
 
-    Also, AWI has its own [GitLab server](https://gitlab.awi.de).
-    
-    #:x git
-    The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
-    gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
-    
-    
-    # Version Control
+This should be  $\pm\sqrt{a^2 + b^2}$ rendered by: 
+```
+$\pm\sqrt{a^2 + b^2}$
+```
+This is subsequent text and a test of autorender.
+The expected value or ensemble mean of $z(t)$ is
+$$\eta(t)\equiv\mathrm{E}z(t)$$
 
-    If you code (or maybe just only write), you should use a version controlled back-up
-    - [:git](#git) is the most popular way to do it
-    - Online storage: [:Github, Gitlab, etc](#footnote) 
+---
+
+# Wikipedia Nutshell test 
+
+[:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
+
+[:maybe this?](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/grl.50542)
+
+---
+
+#:x footnote
+A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
+is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
+
+Also, AWI has its own [GitLab server](https://gitlab.awi.de).
+
+#:x git
+The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
+gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
+
+
+# Version Control
+
+If you code (or maybe just only write), you should use a version controlled back-up
+- [:git](#git) is the most popular way to do it
+- Online storage: [:Github, Gitlab, etc](#footnote) 
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">  </script>
