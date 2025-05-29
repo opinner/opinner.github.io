@@ -3,119 +3,129 @@ Work in progress for a talk for the AWI study circle of climate dynamics
 -->
 
 <!DOCTYPE html>
-<!--
-html meta data and properties
--->
 <html>
-<head>
-<title>Study circle talk</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<link rel="stylesheet" type="text/css" href="/css/styles.css">  <!-- all slide designs are defined in /css/styles.css -->
+  <head>
+    <title>Marine Turbulence</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">  <!-- all slide designs are defined in /css/styles.css -->
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-<!-- nutshell + options  -->
-<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
-<script>
-Nutshell.setOptions({
-    dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
-});
-</script>
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
 
-<!-- MathJax + options  -->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+      <!-- nutshell + options  -->
+      <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
+      <script>
+      Nutshell.setOptions({
+          dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
+      });
+      </script>
 
-</head>
-<body>
-  <textarea id="source">
+      <!-- MathJax + options  -->
+      <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
-class: title-slide
-<!-- all slide designs are are defined in /css/styles.css -->
+  </head>
+  <body>
+    <textarea id="source">
 
-<!-- PRESENTATION TITLE -->
-# Marine Turbulence
-Ole Pinner
+    <!-- class: title-slide -->
+    class: center, middle
+    <!-- all slide designs are are defined in /css/styles.css -->
 
----
+    <!-- PRESENTATION TITLE -->
+    # Marine Turbulence
+    Ole Pinner
 
-# test slide title
+    ---
 
-hello?
+    # test slide title
 
-#:x hidden
-hidden more info 
+    hello?
 
-#:x hidden but multiple words
-hidden longer text
+    #:x hidden
+    hidden more info 
 
-# header 3
-visible cross reference to more info 
+    #:x hidden but multiple words
+    hidden longer text
 
-> Any text that [:looks like this, can be expanded ...](#hidden) <!-- or [:maybe like this](#header 3)  -->
+    # header 3
+    visible cross reference to more info 
 
-Or [:more like this?](#hiddenbutmultiplewords)
+    > Any text that [:looks like this, can be expanded ...](#hidden) <!-- or [:maybe like this](#header 3)  -->
 
----
+    Or [:more like this?](#hiddenbutmultiplewords)
 
-# MathJax test
+    ---
 
-This should be  $\pm\sqrt{a^2 + b^2}$ rendered by: 
-```
-$\pm\sqrt{a^2 + b^2}$
-```
-This is subsequent text and a test of autorender.
-The expected value or ensemble mean of $z(t)$ is
-$$\eta(t)\equiv\mathrm{E}z(t)$$
+    # MathJax test
 
----
+    This should be  $\pm\sqrt{a^2 + b^2}$ rendered by: 
+    ```
+    $\pm\sqrt{a^2 + b^2}$
+    ```
+    This is subsequent text and a test of autorender.
+    The expected value or ensemble mean of $z(t)$ is
+    $$\eta(t)\equiv\mathrm{E}z(t)$$
 
-# Wikipedia Nutshell test 
+    ---
 
-[:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
+    # Wikipedia Nutshell test 
 
-
----
-
-#:x footnote
-A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
-is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
-
-Also, AWI has its own [GitLab server](https://gitlab.awi.de).
-
-#:x git
-The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
-gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
+    [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
 
 
-# Version Control
+    ---
 
-If you code (or maybe just only write), you should use a version controlled back-up
-- [:git](#git) is the most popular way to do it
-- Online storage: [:Github, Gitlab, etc](#footnote) 
+    #:x footnote
+    A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
+    is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
 
----
+    Also, AWI has its own [GitLab server](https://gitlab.awi.de).
 
-#:x WikiInfo
-I think post-its and notebooks are self-explanatory, but "wiki" may need an explanation. 
-I set up an [online wiki](https://ocean.miraheze.org/), which is hosted by Miraheze for free. 
-It can be set to be private, or public and be accessible for everyone. 
-The underlying structure and syntax is the same as Wikipedia. 
+    #:x git
+    The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
+    gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
 
-Outside paid note-taking programs, another good possibility is [Obsidian](https://obsidian.md/). 
-Although very customizable, it is quite easy to start simple local notes that link to each other. 
-The result can still be shared via Github. 
 
-# How do I take notes? 
-[:Extend for more detail on Wikis.](#WikiInfo)
+    # Version Control
+
+    If you code (or maybe just only write), you should use a version controlled back-up
+    - [:git](#git) is the most popular way to do it
+    - Online storage: [:Github, Gitlab, etc](#footnote) 
+
+    ---
+
+    #:x WikiInfo
+    I think post-its and notebooks are self-explanatory, but "wiki" may need an explanation. 
+    I set up an [online wiki](https://ocean.miraheze.org/), which is hosted by Miraheze for free. 
+    It can be set to be private, or public and be accessible for everyone. 
+    The underlying structure and syntax is the same as Wikipedia. 
+
+    Outside paid note-taking programs, another good possibility is [Obsidian](https://obsidian.md/). 
+    Although very customizable, it is quite easy to start simple local notes that link to each other. 
+    The result can still be shared via Github. 
+
+    # How do I take notes? 
+    [:Extend for more detail on Wikis.](#WikiInfo)
 
 
     </textarea>
