@@ -14,6 +14,18 @@ html meta data and properties
 <!-- nutshell + katex  -->
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.2/nutshell.js"></script> 
 <script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script> 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
 
 <!-- To automatically render math in text elements, include the auto-render extension: -->
 <!-- The loading of KaTeX is deferred to speed up page rendering -->
@@ -61,10 +73,10 @@ html meta data and properties
 
     ## MathJax test
 
-    This should be an equation: `\(\pm\sqrt{a^2 + b^2}\)`, \(\pm\sqrt{a^2 + b^2}\)
+    This should be an equation: `\(\pm\sqrt{a^2 + b^2}\)`, \(\pm\sqrt{a^2 + b^2}\), $\pm\sqrt{a^2 + b^2}$
     This is subsequent text and a test of autorender.
-    The expected value or ensemble mean of `$z(t)$` is
-    `\[\eta(t)\equiv\mathrm{E}\{z(t)\}\]`
+    The expected value or ensemble mean of $z(t)$ is
+    $$\eta(t)\equiv\mathrm{E}z(t)$$
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
@@ -81,23 +93,5 @@ html meta data and properties
     -->
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js"> </script>
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
-    <script>
-      var slideshow = remark.create();
-
-      // Setup MathJax
-      MathJax.Hub.Config({
-        tex2jax: {
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-        }
-      });
-      MathJax.Hub.Queue(function() {
-        $(MathJax.Hub.getAllJax()).map(function(index, elem) {
-          return(elem.SourceElement());
-        }).parent().addClass('has-jax');
-      });
-
-      MathJax.Hub.Configured();
-    </script>
   </body>
 </html>
