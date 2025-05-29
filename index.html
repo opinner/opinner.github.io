@@ -60,23 +60,34 @@ window.MathJax = {
     
     hello?
 
-    ##:x test2
+    ##:x hidden header 2
     hidden more info 
     
-    ##test3
+    ## header 3
     visible cross reference to more info 
       
     
-    > Any text that [:looks like this, can be expanded ...](##test3) or [:maybe like this](## test2)
+    > Any text that [:looks like this, can be expanded ...](##:x hidden header 2) or [:maybe like this](## header 3)
     
+    Or [:more like this?](## hidden header 2)
+
     ---
 
     ## MathJax test
 
-    This should be an equation: `\(\pm\sqrt{a^2 + b^2}\)`, \(\pm\sqrt{a^2 + b^2}\), $\pm\sqrt{a^2 + b^2}$
+    This should be  $\pm\sqrt{a^2 + b^2}$ rendered by: 
+    ```
+    $\pm\sqrt{a^2 + b^2}$
+    ```
     This is subsequent text and a test of autorender.
     The expected value or ensemble mean of $z(t)$ is
     $$\eta(t)\equiv\mathrm{E}z(t)$$
+
+    ---
+
+    ## Wikipedia Nutshell test 
+
+    [:looks like this, can be expanded ...](http://wikipedia.org/turbulence)
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">  </script>
