@@ -15,15 +15,14 @@ html meta data and properties
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.2/nutshell.js"></script> 
 <script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script> 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
-
-<!-- The loading of KaTeX is deferred to speed up page rendering -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
-
 <!-- To automatically render math in text elements, include the auto-render extension: -->
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
-
+-->
 
 </head>
 <body>
@@ -60,12 +59,9 @@ html meta data and properties
     
     ---
 
-    ## KaTeX test
+    ## MathJax test
 
-    This should be an equation:
-    katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-    throwOnError: false
-    });
+    This should be an equation: `\(\pm\sqrt{a^2 + b^2}\)`, \(\pm\sqrt{a^2 + b^2}\)
     This is subsequent text and a test of autorender.
     The expected value or ensemble mean of `$z(t)$` is
     `\[\eta(t)\equiv\mathrm{E}\{z(t)\}\]`
@@ -84,10 +80,24 @@ html meta data and properties
     commands to render to html with remark https://github.com/gnab/remark
     -->
     </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"> </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
     <script>
       var slideshow = remark.create();
+
+      // Setup MathJax
+      MathJax.Hub.Config({
+        tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      });
+      MathJax.Hub.Queue(function() {
+        $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+          return(elem.SourceElement());
+        }).parent().addClass('has-jax');
+      });
+
+      MathJax.Hub.Configured();
     </script>
   </body>
 </html>
