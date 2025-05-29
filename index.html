@@ -13,7 +13,7 @@ html meta data and properties
 <link rel="stylesheet" type="text/css" href="/css/styles.css">  <!-- all slide designs are defined in /css/styles.css -->
 <!-- nutshell + katex  -->
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
-<script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script> 
+<!-- <script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script>   -->
 <script>
 window.MathJax = {
   tex: {
@@ -44,16 +44,19 @@ Ole Pinner
 
 hello?
 
-#:x hidden header 2
+#:x hidden
 hidden more info 
 
-# header 3
+#:x hidden but multiple words
+hidden longer text
+
+# header3
 visible cross reference to more info 
 
 
-> Any text that [:looks like this, can be expanded ...](#hidden header 2) or [:maybe like this](#header 3)
+> Any text that [:looks like this, can be expanded ...](#hidden) or [:maybe like this](#header3)
 
-Or [:more like this?](#hidden header 2)
+Or [:more like this?](#hiddenbutmultiplewords)
 
 ---
 
@@ -73,7 +76,6 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 
 [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
 
-[:maybe this?](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/grl.50542)
 
 ---
 
