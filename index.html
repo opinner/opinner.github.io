@@ -11,9 +11,16 @@ html meta data and properties
 <title>Study circle talk</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="stylesheet" type="text/css" href="/css/styles.css">  <!-- all slide designs are defined in /css/styles.css -->
-<!-- nutshell + katex  -->
+
+<!-- nutshell + options  -->
 <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
-<!-- <script> Nutshell.setOptions({dontEmbedHeadings: true,}); </script>   -->
+<script>
+Nutshell.setOptions({
+    dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
+});
+</script>
+
+<!-- MathJax + options  -->
 <script>
 window.MathJax = {
   tex: {
