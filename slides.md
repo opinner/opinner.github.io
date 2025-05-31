@@ -20,6 +20,7 @@ Ole Pinner
 
 ## Some definitions
 <!-- .slide: style="text-align: left;"> -->
+
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
 
