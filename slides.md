@@ -109,3 +109,9 @@ $\pm\sqrt{a^2 + b^2}$
 This is subsequent text and a test of autorender.
 The expected value or ensemble mean of $z(t)$ is
 $$\eta(t)\equiv\mathrm{E}z(t)$$
+
+---
+
+## Lightbox Test
+
+<img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300" data-preview-image />
