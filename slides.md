@@ -49,10 +49,12 @@ $$
 $$
 
 $$
-\text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\\ \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
+\text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\\\text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
 
-We are pretty sure $\varGamma$ is not constant and varies instead even in its magnitude. 
+$\sum_{\substack{0<i<m\\0<j<n}}$
+
+We are pretty sure $\varGamma$ is not constant, but varies instead, even in its magnitude. 
 But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
 ---
