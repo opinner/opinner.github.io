@@ -40,15 +40,15 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 
 ---
 
+## What are current research questions?
+
+- Ocean mixing is almost always described as [:dynamically passive.](#passive)
+
+- At AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
+
 #:x passive
 Meaning, mixing does not change how the ocean adjusts to changes in climatic forcing. 
 Diffusive coefficients in models are prescribed and not dynamically adjusted. But recent findings indicate otherwise. Many fast interactions between mixing processes and large scale behavior were found ([Meredith2022, Chapter 1 and references therein](https://doi.org/10.1016/C2019-0-03674-6))
 
 #:x artemics
 Development of a parameterization of internal waves in the Arctic Ocean and use in climate models to research links and feedback mechanisms between declining sea ice, wave-induced mixing, stratification and heat transport. 
-
-# What are current research questions?
-
-- Ocean mixing is almost always described as [:dynamically passive.](#passive)
-
-- At AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
