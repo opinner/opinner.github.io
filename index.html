@@ -19,7 +19,7 @@
 				<section data-markdown="slides.md"
 						 data-separator="^^\r?\n---\r?\n$" 
 						 data-separator-notes="^Note:"
-						 data-charset="iso-8859-15"
+						 data-charset="utf-8"
 						 data-transition="slide">
 				</section>
 			</div>
@@ -44,18 +44,14 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
 			});
 		</script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+		<script> 
+		Reveal.on('ready', () => {
+			// Delay slightly to ensure markdown is rendered
+			setTimeout(() => {
+				Nutshell.start();
+			}, 100);
+		});
 		</script>
-		<script> Nutshell.start(); </script>
 	</body>
 </html>
 
