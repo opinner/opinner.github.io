@@ -24,7 +24,14 @@
 				</section>
 			</div>
 		</div>
-
+		<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
+		<script>
+			Nutshell.setOptions({
+				startOnLoad: false, // Start Nutshell on load? (default: true)
+				lang: 'en', // Language (default: 'en', which is English)
+				dontEmbedHeadings: false, // If 'true', removes the "embed this as a nutshell" option on headings
+			});
+		</script>
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
@@ -48,14 +55,7 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
-		<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
-		<script>
-			Nutshell.setOptions({
-				startOnLoad: true, // Start Nutshell on load? (default: true)
-				lang: 'en', // Language (default: 'en', which is English)
-				dontEmbedHeadings: false, // If 'true', removes the "embed this as a nutshell" option on headings
-			});
-		</script>
+		<script> Nutshell.start(); </script>
 	</body>
 </html>
 
