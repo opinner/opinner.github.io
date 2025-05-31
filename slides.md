@@ -63,8 +63,6 @@ $$
 \text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
 
-
-
 We are pretty sure $\varGamma$ is not constant, but varies instead, even in its magnitude. 
 But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
@@ -77,6 +75,7 @@ Layering, Instabilities, and Mixing in Turbulent Stratified Flows,
 test2
 
 ## Some quotes
+<!-- .slide: style="text-align: left;"> -->
 
 "Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
 
