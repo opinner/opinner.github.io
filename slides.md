@@ -41,6 +41,7 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 ---
 
 ## What are current research questions?
+<!-- .slide: style="text-align: left;"> -->
 
 - Ocean mixing is almost always described as [:dynamically passive.](#passive)
 
