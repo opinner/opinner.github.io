@@ -24,11 +24,11 @@ Ole Pinner
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
 
-<!--
+
 $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 \frac{\partial \nu u_i S_{i j}}{\partial x_j}+\frac{1}{\rho_0} \frac{\partial u_i p}{\partial x_i}=-2 \nu S_{i j} S_{i j}+\frac{\rho}{\rho_0} u_i g_i
 $$
--->
+
 
 $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 
