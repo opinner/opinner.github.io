@@ -22,6 +22,25 @@ Ole Pinner
 
 ---
 
-# Some definitions
+## Some definitions
 <!-- .slide: style="text-align: left;"> -->
 
+---
+
+## Math test
+<!-- .slide: style="text-align: left;"> -->
+
+This should be  $\\sqrt{a^2 + b^2}$ \\(\sqrt{a^2 + b^2} )// \(\sqrt{a^2 + b^2}\)rendered by: 
+```
+$\pm\sqrt{a^2 + b^2}$
+```
+This is subsequent text and a test of autorender.
+The expected value or ensemble mean of $z(t)$ is
+$$\eta(t)\equiv\mathrm{E}z(t)$$
+
+---
+
+## Nutshell test
+<!-- .slide: style="text-align: left;"> -->
+
+[:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
