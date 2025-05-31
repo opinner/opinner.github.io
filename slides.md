@@ -6,7 +6,7 @@ Ole Pinner
 ---
 
 ## Quote
-<!-- .slide: style="text-align: left;"> -->
+<!-- .slide: style="text-align: center;"> -->
 <iframe width="800" height="600" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
@@ -15,13 +15,21 @@ Ole Pinner
 <!-- .slide: style="text-align: left;"> -->
 - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
+---
+
+## Why is it important for Climate Research?
+
+- Surface Mixing: Carbon & oxygen exchange, 
+- Interior Mixing: Overturning
+- Bottom Mixing: Upwelling, benthic life
 
 ---
 
-## Some definitions
+## Quantification
 <!-- .slide: style="text-align: left;"> -->
 
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
+in units of $\frac{\mathrm{J}}{\mathrm{m}^2 \mathrm{s}}$ 
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
 
 
@@ -37,22 +45,25 @@ $$
 ---
 
 # :x Gregg2018
-[33 pages of review paper just about the value of the mixing efficiency ](https://doi.org/10.1146/annurev-marine-121916-063643)
-> Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of $K_\rho$. 
+[33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency. It concludes
+"*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
 
-## Mixing
+## Relation to Mixing
+<!-- .slide: style="text-align: left;"> -->
 
 Osborn relation for turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$. 
 
 $$
-\text{mixing efficiency}\:\varGamma := \frac{\text{\small change in background potential energy due to mixing}}{\text{Energy expended}} \approx 0.2 
+\text{mixing efficiency}\:\varGamma := \frac{\text{\small change in background potential energy due to mixing}}{\text{\small Energy expended}} \approx 0.2 
 $$
 
+test $\sum_{\substack{0<i<m\\0<j<n}}$
+
 $$
-\text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\\\text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
+\text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
 
-$\sum_{\substack{0<i<m\\0<j<n}}$
+
 
 We are pretty sure $\varGamma$ is not constant, but varies instead, even in its magnitude. 
 But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
@@ -67,7 +78,7 @@ test2
 
 ## Some quotes
 
-> Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing. [:*(Caul et al., 2021)*](#Caul2021)
+"Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
 
 > The trends in mixing are difficult and, in many cases, nearly impossible to assess. [:(Bennetts et al., 2024)](#Bennetts2024)
 
@@ -102,7 +113,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 ## Math test
 <!-- .slide: style="text-align: left;"> -->
 
-This should be  $\\sqrt{a^2 + b^2}$ rendered by: 
+This should be  $\sqrt{a^2 + b^2}$ rendered by: 
 ```
 $\pm\sqrt{a^2 + b^2}$
 ```
