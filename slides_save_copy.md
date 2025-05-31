@@ -4,13 +4,13 @@
 
   ---
 
-  # Quote
   <iframe width="700" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
   ---
 
   # What is turbulence anyway?
   
+  -
   - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
   ---
@@ -52,7 +52,6 @@
   But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
   ---
-
   #:x Caul2021
   Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
 
@@ -70,10 +69,10 @@
 
   ---
 
+  ---
   # Methods of  Quantification
 
   ---
-
   #:x passive
   Meaning, mixing does not change how the ocean adjusts to changes in climatic forcing. 
   Diffusive coefficients in models are prescribed and not dynamically adjusted. But recent findings indicate otherwise. Many fast interactions between mixing processes and large scale behavior were found ([Meredith2022, Chapter 1 and references therein](https://doi.org/10.1016/C2019-0-03674-6))
@@ -89,7 +88,26 @@
 
   ---
 
-  # Math test
+  # test slide title
+
+  hello?
+
+  #:x hidden
+  hidden more info 
+
+  #:x hidden but multiple words
+  hidden longer text
+
+  # header 3
+  visible cross reference to more info 
+
+  > Any text that [:looks like this, can be expanded ...](#hidden) <!-- or [:maybe like this](#header 3)  -->
+
+  Or [:more like this?](#hiddenbutmultiplewords)
+
+  ---
+
+  # MathJax test
 
   This should be  $\\sqrt{a^2 + b^2}$ \\(\sqrt{a^2 + b^2} )// \(\sqrt{a^2 + b^2}\)rendered by: 
   ```
@@ -110,3 +128,35 @@
 
 
   ---
+
+  #:x footnote
+  A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
+  is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
+
+  Also, AWI has its own [GitLab server](https://gitlab.awi.de).
+
+  #:x git
+  The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
+  gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
+
+
+  # Version Control
+
+  If you code (or maybe just only write), you should use a version controlled back-up
+  - [:git](#git) is the most popular way to do it
+  - Online storage: [:Github, Gitlab, etc](#footnote) 
+
+  ---
+
+  #:x WikiInfo
+  I think post-its and notebooks are self-explanatory, but "wiki" may need an explanation. 
+  I set up an [online wiki](https://ocean.miraheze.org/), which is hosted by Miraheze for free. 
+  It can be set to be private, or public and be accessible for everyone. 
+  The underlying structure and syntax is the same as Wikipedia. 
+
+  Outside paid note-taking programs, another good possibility is [Obsidian](https://obsidian.md/). 
+  Although very customizable, it is quite easy to start simple local notes that link to each other. 
+  The result can still be shared via Github. 
+
+  # How do I take notes? 
+  [:Extend for more detail on Wikis.](#WikiInfo)
