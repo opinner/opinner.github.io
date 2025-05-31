@@ -1,18 +1,13 @@
 
 # Marine Turbulence
-
+<!-- .slide: style="text-align: center; padding: 70px 0;"> -->
 Ole Pinner
 
 ---
 
 ## Quote
 <!-- .slide: style="text-align: left;"> -->
-<iframe width="700" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-## Quote 2
-<!-- .slide:data-background-iframe="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" -->
+<iframe width="800" height="600" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -40,7 +35,7 @@ $$
 
 ---
 
-#:x Gregg2018
+# :x Gregg2018
 [33 pages of review paper just about the value of the mixing efficiency ](https://doi.org/10.1146/annurev-marine-121916-063643)
 > Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of $K_\rho$. 
 
@@ -61,10 +56,11 @@ But we also have no consistent theory, so we are still using the value from the 
 
 ---
 
-#:x Caul2021
+# :x Caul2021
 Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
 
 # :x Bennetts2024
+test2
 
 ## Some quotes
 
