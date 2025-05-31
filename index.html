@@ -43,12 +43,12 @@
 			Nutshell.setOptions({
 				startOnLoad: false, // Start Nutshell on load? (default: true)
 				lang: 'en', // Language (default: 'en', which is English)
-				dontEmbedHeadings: false, // If 'true', removes the "embed this as a nutshell" option on headings
+				dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
 			});
 		</script>
 		<style>
 			.nutshell-bubble{
-				max-height: 95%;
+				max-height: '95%'; /* I dont know if this does anything. I tried to keep the bubbles from extending out of the view*/
 			}
 	</style>
 		<script src="dist/reveal.js"></script>
