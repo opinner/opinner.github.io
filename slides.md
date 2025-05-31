@@ -44,3 +44,8 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 <!-- .slide: style="text-align: left;"> -->
 
 [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
+
+[:Baguette on French Wikipedia](https://fr.wikipedia.org/wiki/Baguette_(pain)) links to `https://fr.wikipedia.org/wiki/Baguette_(pain)`
+
+[:Universe on Simple Wikipedia](https://simple.wikipedia.org/wiki/Universe) links to `https://simple.wikipedia.org/wiki/Universe`
+

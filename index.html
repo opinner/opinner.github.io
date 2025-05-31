@@ -27,7 +27,7 @@
 		<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
 		<script>
 			Nutshell.setOptions({
-				startOnLoad: false, // Start Nutshell on load? (default: true)
+				startOnLoad: true, // Start Nutshell on load? (default: true)
 				lang: 'en', // Language (default: 'en', which is English)
 				dontEmbedHeadings: false, // If 'true', removes the "embed this as a nutshell" option on headings
 			});
@@ -41,9 +41,14 @@
 			Reveal.initialize({
 				hash: true,
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ],
+				// Activate the scroll view
+				view: 'scroll',
+				// Force the scrollbar to remain visible
+				scrollProgress: true,
 			});
 		</script>
+		<!--
 		<script> 
 		Reveal.on('ready', () => {
 			// Delay slightly to ensure markdown is rendered
@@ -52,6 +57,7 @@
 			}, 100);
 		});
 		</script>
+		-->
 	</body>
 </html>
 
