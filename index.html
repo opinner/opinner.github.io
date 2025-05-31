@@ -38,15 +38,17 @@ Work in progress for a talk for the AWI study circle of climate dynamics
       <!-- MathJax + options  -->
       <script>
       window.MathJax = {
+        loader: {
+          load: ['[tex]/textmacros']
+        },
         tex: {
           inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          packages: {'[+]': ['textmacros']}
         },
         svg: {
           fontCache: 'global'
         },
-        loader: {load: ['[tex]/textmacros']},
-        tex: {packages: {'[+]': ['textmacros']}}
       };
       </script>
       <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
