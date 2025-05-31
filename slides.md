@@ -23,7 +23,7 @@ Ole Pinner
 
 ---
 
-# Some definitions
+## Some definitions
 <!-- .slide: style="text-align: left;"> -->
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
@@ -93,6 +93,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 
 - At AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
+---
 
 ## Some definitions
 <!-- .slide: style="text-align: left;"> -->

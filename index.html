@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 		<style>
 		.reveal {
-			font-size: 35px; /* Controls the base font size for slide content */
+			font-size: 30px; /* Controls the base font size for slide content */
 		}
 		.reveal h1 {
 			font-size: 4em; /* Customize headers separately if needed */
@@ -65,6 +65,9 @@
 				view: 'scroll',
 				// Force the scrollbar to remain visible
 				scrollProgress: true,
+				center: false 
+				width: 85%,
+  				height: 700,
 			});
 		</script>
 		<script>
@@ -74,33 +77,3 @@
 		</script>
 	</body>
 </html>
-
-
-
-<!--
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
-
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
-</html>
- -->
