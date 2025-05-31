@@ -12,6 +12,20 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+		.reveal {
+			font-size: 28px; /* Controls the base font size for slide content */
+		}
+		.reveal h1 {
+			font-size: 3em; /* Customize headers separately if needed */
+		}
+		.reveal h2 {
+			font-size: 1.5em;
+		}
+		.reveal h3 {
+			font-size: 1.2em;
+		}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -33,11 +47,9 @@
 			});
 		</script>
 		<style>
-		#nutshell {
-			font-size: 0.6rem; /* Increase font size */
-			/* max-width: 300px;   /* Optional: wider bubbles */
-			/* line-height: 1.4;   /* Optional: more readable */
-		}
+			.nutshell-bubble{
+				max-height: 95%;
+			}
 	</style>
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
