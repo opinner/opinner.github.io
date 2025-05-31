@@ -44,6 +44,8 @@ $$
 
 ---
 
+# :x Osborn 
+
 # :x Gregg2018
 [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency. It concludes
 "*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
@@ -51,19 +53,11 @@ $$
 ## Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-Osborn relation for turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$. 
-
+turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ (Osborn relation)
 $$
-\text{mixing efficiency}\:\varGamma := \frac{\text{\small change in background potential energy due to mixing}}{\text{\small Energy expended}} \approx 0.2 
+\text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-
-test $\sum_{\substack{0<i<m\\0<j<n}}$
-
-$$
-\text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
-$$
-
-We are pretty sure $\varGamma$ is not constant, but varies instead, even in its magnitude. 
+We are pretty sure $\varGamma$ is not constant. It can even vary over magnitudes. 
 But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
 ---
@@ -85,6 +79,18 @@ test2
 
 ## So what is causing turbulence?
   - test1
+
+---
+
+# :x observations
+eddy covariance ???
+
+# :x models
+DNS
+
+## Measuring marine turbulence
+- Very few [:observations](#observations) or [:numerical models](#models) resolve turbulent scales directly 
+- need for parameterizations (in models and observations)
 
 ---
 
