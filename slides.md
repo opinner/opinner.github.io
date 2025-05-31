@@ -1,252 +1,161 @@
-# A deep dive into Docker
+  # Marine Turbulence
+    Ole Pinner
 
----
+  ---
 
-## Andrew Pruski
+  <iframe width="700" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  ---
 
-<img src="images/apruski.jpg" style="float: right"/>
+  # What is turbulence anyway?
+  
+  -
+  - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
-### Field Solutions Architect
-#### Microsoft Data Platform MVP 
-#### Docker Captain
-#### VMware vExpert
+  ---
 
-<!-- .slide: style="text-align: left;"> -->
-<i class="fa-brands fa-bluesky"></i><a href="https://bsky.app/profile/dbafromthecold.com">  @dbafromthecold.com</a><br>
-<i class="fas fa-envelope"></i>  dbafromthecold@gmail.com<br>
-<i class="fab fa-wordpress"></i>  www.dbafromthecold.com<br>
-<i class="fab fa-github"></i><a href="https://github.com/dbafromthecold">  github.com/dbafromthecold</a>
+  # Some definitions
 
----
+  The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
+  Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
+  
+  <!--
+  $$
+  \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 \frac{\partial \nu u_i S_{i j}}{\partial x_j}+\frac{1}{\rho_0} \frac{\partial u_i p}{\partial x_i}=-2 \nu S_{i j} S_{i j}+\frac{\rho}{\rho_0} u_i g_i
+  $$
+  -->
 
-## Session Aim
-<!-- .slide: style="text-align: left;"> -->
-To provide a deeper knowledge of the Docker platform
+  $$
+  \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 
+  $$
 
----
+  ---
+  
+  #:x Gregg2018
+  [33 pages of review paper just about the value of the mixing efficiency ](https://doi.org/10.1146/annurev-marine-121916-063643)
+  > Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of $K_\rho$. 
 
-## Agenda
-<!-- .slide: style="text-align: left;"> -->
-- Isolation<br>
-- Networking<br>
-- Persisting data<br>
-- Custom images<br>
-- Docker Compose<br>
-- High Availability
+  # Mixing
 
----
+  Osborn relation for turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$. 
 
-# Isolation
+  $$
+  \text{mixing efficiency}\:\varGamma := \frac{\text{\small change in background potential energy due to mixing}}{\text{Energy expended}} \approx 0.2 
+  $$
 
----
+  $$
+  \text{\small mixing efficiency}\:\varGamma := \frac{\substack{\text{\small change in background potential energy}\\ \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
+  $$
 
-## There are no containers!
-<!-- .slide: style="text-align: left;"> -->
+  We are pretty sure $\varGamma$ is not constant and varies instead even in its magnitude. 
+  But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
-<p align="center">
-  <img src="images/there-is-no-spoon.gif" />
-</p>
+  ---
+  #:x Caul2021
+  Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
 
----
+  #:x Bennetts2024
 
-## Container Isolation
-<!-- .slide: style="text-align: left;"> -->
-"Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging"<br>
-<font size="6"><a href="https://www.docker.com/resources/what-container">docker.com/resources/what-container</a></font>
+  # Some quotes
 
----
+  > Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing. [:*(Caul et al., 2021)*](#Caul2021)
 
-## Control Groups
-<!-- .slide: style="text-align: left;"> -->
-Ensures a single container cannot consume all<br>
-resources of the host<br>
-<br>
-Implements resource limiting of:-
-- CPU
-- Memory
+  > The trends in mixing are difficult and, in many cases, nearly impossible to assess. [:(Bennetts et al., 2024)](#Bennetts2024)
 
----
+  ---
 
-## Namespaces
-<!-- .slide: style="text-align: left;"> -->
-Control what a container can see<br>
-<br>
-Used to control:-<br>
-- Hostname within the container
-- Processes that the container can see
-- Mapping users in the container to users on the host
+  # So what is causing turbulence?
 
----
+  ---
 
-## File system
-<!-- .slide: style="text-align: left;"> -->
-- Containers cannot see the entire host's filesystem<br>
-- They can only see a subset of that filesystem<br>
-- The container root directory is changed
+  ---
+  # Methods of  Quantification
 
----
+  ---
+  #:x passive
+  Meaning, mixing does not change how the ocean adjusts to changes in climatic forcing. 
+  Diffusive coefficients in models are prescribed and not dynamically adjusted. But recent findings indicate otherwise. Many fast interactions between mixing processes and large scale behavior were found ([Meredith2022, Chapter 1 and references therein](https://doi.org/10.1016/C2019-0-03674-6))
 
-# Demo
+  #:x artemics
+  Development of a parameterization of internal waves in the Arctic Ocean and use in climate models to research links and feedback mechanisms between declining sea ice, wave-induced mixing, stratification and heat transport. 
 
----
+  # What are current research questions?
 
-# Networking
+  - Ocean mixing is almost always described as [:dynamically passive.](#passive)
 
----
+  - At AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
-## Default networks
-<!-- .slide: style="text-align: left;"> -->
-<img src="images/docker_default_networks.png" style="float: right"/>
+  ---
 
-- bridge<br>
-- host<br>
-- none<br>
+  # test slide title
 
----
+  hello?
 
-## Bridge network
-<!-- .slide: style="text-align: left;"> -->
-- Default network<br>
-- Represents _docker0_ network<br>
-- Containers communicate by IP address<br>
-- Supports port mapping 
+  #:x hidden
+  hidden more info 
 
----
+  #:x hidden but multiple words
+  hidden longer text
 
-## User defined networks
-<!-- .slide: style="text-align: left;"> -->
-- Docker provide multiple drivers<br>
-- DNS resolution of container names to IP addresses<br>
-- Can be connected to more than one network<br>
-- Connect/disconnect from networks without restarting<br>
+  # header 3
+  visible cross reference to more info 
 
----
+  > Any text that [:looks like this, can be expanded ...](#hidden) <!-- or [:maybe like this](#header 3)  -->
 
-# Demo
+  Or [:more like this?](#hiddenbutmultiplewords)
 
----
+  ---
 
-# Persisting data
+  # MathJax test
 
----
+  This should be  $\\sqrt{a^2 + b^2}$ \\(\sqrt{a^2 + b^2} )// \(\sqrt{a^2 + b^2}\)rendered by: 
+  ```
+  $\pm\sqrt{a^2 + b^2}$
+  ```
+  This is subsequent text and a test of autorender.
+  The expected value or ensemble mean of $z(t)$ is
+  $$\eta(t)\equiv\mathrm{E}z(t)$$
 
-## Options for persisting data
-<!-- .slide: style="text-align: left;"> -->
-- Bind mounts<br>
-- Data volume containers<br>
-- Named volumes
 
----
+  $$\text{\small test} \quad \text{\huge test}$$
 
-# Demo
+  ---
 
----
+  # Wikipedia Nutshell test 
 
-# Custom images
+  [:looks like this, can be expanded ...](https://en.wikipedia.org/wiki/Turbulence)
 
----
 
-## Building your own image
-<!-- .slide: style="text-align: left;"> -->
-- Custom images built from a file<br>
-- Known as a dockerfile<br>
-- Customise the image to grant permissions<br>
-- Add databases to SQL Server<br>
+  ---
 
----
+  #:x footnote
+  A fantastic short and easy to follow step-by-step guide on how to set up scientific python code with version control 
+  is given in the [Good Research Code Handbook](https://goodresearch.dev/) by Patrick J Mineault. 
 
-## Dockerfile
+  Also, AWI has its own [GitLab server](https://gitlab.awi.de).
 
-<pre><code data-line-numbers="1|3|5-8|10|12|14">FROM mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
+  #:x git
+  The article [What Is Version Control](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) 
+  gives an overview of the broad concepts and the differences between git and github. And most importantly, how you yourself can use it. 
 
-USER root
 
-RUN mkdir /var/opt/sqlserver
-RUN mkdir /var/opt/sqlserver/sqldata
-RUN mkdir /var/opt/sqlserver/sqllog
-RUN mkdir /var/opt/sqlserver/sqlbackups
+  # Version Control
 
-RUN chown -R mssql /var/opt/sqlserver
+  If you code (or maybe just only write), you should use a version controlled back-up
+  - [:git](#git) is the most popular way to do it
+  - Online storage: [:Github, Gitlab, etc](#footnote) 
 
-USER mssql
+  ---
 
-CMD /opt/mssql/bin/sqlservr
-</pre></code>
+  #:x WikiInfo
+  I think post-its and notebooks are self-explanatory, but "wiki" may need an explanation. 
+  I set up an [online wiki](https://ocean.miraheze.org/), which is hosted by Miraheze for free. 
+  It can be set to be private, or public and be accessible for everyone. 
+  The underlying structure and syntax is the same as Wikipedia. 
 
----
+  Outside paid note-taking programs, another good possibility is [Obsidian](https://obsidian.md/). 
+  Although very customizable, it is quite easy to start simple local notes that link to each other. 
+  The result can still be shared via Github. 
 
-# Demo
-
----
-
-# Docker Compose
-
----
-
-## Docker container run
-
-<pre><code data-line-numbers="1|2|3-8|9|10-13|14|15">docker container run -d
---publish 15789:1433
---env SA_PASSWORD=Testing1122
---env ACCEPT_EULA=Y
---env MSSQL_AGENT_ENABLED=True
---env MSSQL_DATA_DIR=/var/opt/sqlserver/sqldata
---env MSSQL_LOG_DIR=/var/opt/sqlserver/sqllog
---env MSSQL_BACKUP_DIR=/var/opt/sqlserver/sqlbackups
---network sqlserver
---volume sqlsystem:/var/opt/mssql
---volume sqldata:/var/opt/sqlserver/sqldata
---volume sqllog:/var/opt/sqlserver/sqllog
---volume sqlbackup:/var/opt/sqlserver/sqlbackups
---name sqlcontainer1
-mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
-</pre></code>
-
----
-
-## What is Compose?
-<!-- .slide: style="text-align: left;"> -->
-"Compose is a tool for defining and running multi-container Docker applications.
-With Compose, you use a YAML file to configure your application`s services.
-Then, with a single command, you create and start all the services from your configuration."<br>
-<font size="6"><a href="https://docs.docker.com/compose/">docs.docker.com/compose</a></font>
-
----
-
-# Demo
-
----
-
-# High Availability
-
----
-
-## Docker Swarm
-<!-- .slide: style="text-align: left;"> -->
-- A "swarm" of Docker engines
-- No additional orchestration software required
-- Built-in resilience for containers
-- Declarative model
-
----
-
-## Docker Swarm vs Kubernetes
-<!-- .slide: style="text-align: left;"> -->
-- Simpler setup
-- Tighter Docker integration
-- Lightweight
-- Limited ecosystem
-- Lower community adoption
-- Weaker multi-cloud/hybrid support
-
----
-
-## Resources
-<!-- .slide: style="text-align: left;"> -->
-<font size="6">
-<a href="https://github.com/dbafromthecold/DockerDeepDive">https://github.com/dbafromthecold/DockerDeepDive</a><br>
-</font>
-
-<p align="center">
-<img src="images/dockerdeepdive_qr_code.png" />
-</p>
+  # How do I take notes? 
+  [:Extend for more detail on Wikis.](#WikiInfo)
