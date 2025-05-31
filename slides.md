@@ -126,3 +126,8 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 ## Lightbox Test
 
 <img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300" data-preview-image />
+
+## Fragment test
+
+- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
