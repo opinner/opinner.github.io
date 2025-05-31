@@ -77,11 +77,6 @@ test2
 
 ---
 
-## So what is causing turbulence?
-  - test1
-
----
-
 # :x observations
 eddy covariance ???
 
@@ -89,8 +84,14 @@ eddy covariance ???
 DNS
 
 ## Measuring marine turbulence
+<!-- .slide: style="text-align: left;"> -->
 - Very few [:observations](#observations) or [:numerical models](#models) resolve turbulent scales directly 
-- need for parameterizations (in models and observations)
+- General need for parameterizations (in models and observations)
+
+---
+
+## So what is causing turbulence?
+  - test1
 
 ---
 
@@ -131,6 +132,8 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 ## Lightbox Test
 
 <img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300" data-preview-image />
+
+---
 
 ## Fragment test
 
