@@ -27,7 +27,7 @@
 		<script src="https://cdn.jsdelivr.net/gh/ncase/nutshell@1.0.7/nutshell.js"></script> 
 		<script>
 			Nutshell.setOptions({
-				startOnLoad: true, // Start Nutshell on load? (default: true)
+				startOnLoad: false, // Start Nutshell on load? (default: true)
 				lang: 'en', // Language (default: 'en', which is English)
 				dontEmbedHeadings: false, // If 'true', removes the "embed this as a nutshell" option on headings
 			});
@@ -48,16 +48,11 @@
 				scrollProgress: true,
 			});
 		</script>
-		<!--
-		<script> 
-		Reveal.on('ready', () => {
-			// Delay slightly to ensure markdown is rendered
-			setTimeout(() => {
+		<script>
+			Reveal.on('ready', () => {
 				Nutshell.start();
-			}, 100);
-		});
+			});
 		</script>
-		-->
 	</body>
 </html>
 
