@@ -45,6 +45,8 @@ Work in progress for a talk for the AWI study circle of climate dynamics
         svg: {
           fontCache: 'global'
         }
+        loader: {load: ['[tex]/textmacros']},
+        tex: {packages: {'[+]': ['textmacros']}}
       };
       </script>
       <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
@@ -100,7 +102,7 @@ Work in progress for a talk for the AWI study circle of climate dynamics
     Osborn relation for turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varGamma}{N^2}$. 
 
     $$
-    \text{mixing efficiency}\:\varGamma := \frac{\text{\footnotesize change in background potential energy due to mixing}}{\text{Energy expended}} \approx 0.2 
+    \text{mixing efficiency}\:\varGamma := \frac{\text{\small change in background potential energy due to mixing}}{\text{Energy expended}} \approx 0.2 
     $$
 
     We are pretty sure $\varGamma$ is not constant and varies instead even in its magnitude. 
