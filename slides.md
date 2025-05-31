@@ -30,7 +30,7 @@ Ole Pinner
 ## Math test
 <!-- .slide: style="text-align: left;"> -->
 
-This should be  $\\sqrt{a^2 + b^2}$ \\(\sqrt{a^2 + b^2} )// \(\sqrt{a^2 + b^2}\)rendered by: 
+This should be  $\\sqrt{a^2 + b^2}$ rendered by: 
 ```
 $\pm\sqrt{a^2 + b^2}$
 ```
