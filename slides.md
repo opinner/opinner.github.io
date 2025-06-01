@@ -7,13 +7,16 @@ Ole Pinner
 
 ## Quote
 <!-- .slide: style="text-align: center;"> -->
-<iframe width="800" height="600" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
+- Chaotic movement, patchy and intermittent
 - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
+
+<img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="100" data-preview-image />
 
 ---
 
