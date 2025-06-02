@@ -13,7 +13,6 @@ Ole Pinner
 
 ---
 
-## Quote
 <!-- .slide: style="text-align: center;"> -->
 <iframe width="500" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -21,12 +20,18 @@ Ole Pinner
 
 ---
 
+# :x poem
+and so on to viscosity
+
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
-- Chaotic movement, patchy and intermittent
-- Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
-
-<img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="100" data-preview-image />
+- Chaotic fluid movement, patchy and intermittent 
+- (<a data-preview-image="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png">📸 test link</a>) 
+<img src="" align="right" height="100" data-preview-image /> <!-- .element: class="fragment fade-in-then-out" data-fragment-index="0" -->
+- [: Transport of energy in a cascade from large to small scales](#poem) <!-- .element: class="fragment" data-fragment-index="1" -->
+- Finally, at Kolmogorov microscales allow for  molecular viscosity  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Cause of diapycnal mixing  <!-- .element: class="fragment" data-fragment-index="2" -->
+- (in contrast to horizontal/isopycnal sub-mesoscale stirring)  <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
 
@@ -36,15 +41,16 @@ Ole Pinner
 - Interior Mixing: Overturning
 - Bottom Mixing: Upwelling, benthic life
 
+Notes: Add examples and images
+
 ---
 
 ## Quantification
 <!-- .slide: style="text-align: left;"> -->
 
-The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat. 
-in units of $\frac{\mathrm{J}}{\mathrm{m}^2 \mathrm{s}}$ 
+The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat per mass unit.
+in units of $\frac{\mathrm{J}}{\mathrm{s} \mathrm{kg}}$ 
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
-
 
 $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 \frac{\partial \nu u_i S_{i j}}{\partial x_j}+\frac{1}{\rho_0} \frac{\partial u_i p}{\partial x_i}=-2 \nu S_{i j} S_{i j}+\frac{\rho}{\rho_0} u_i g_i
@@ -75,30 +81,15 @@ But we also have no consistent theory, so we are still using the value from the 
 
 ---
 
-# :x Caul2021
-Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
-
-# :x Bennetts2024
-test2
-
-## Some quotes
-<!-- .slide: style="text-align: left;"> -->
-
-"Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
-
-> The trends in mixing are difficult and, in many cases, nearly impossible to assess. [:(Bennetts et al., 2024)](#Bennetts2024)
-
----
-
 # :x observations
-eddy covariance ???
+For example[:eddy covariance](#eddy covariance) or [:PIV](#PIV)
 
 # :x models
-DNS
+Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
 ## Measuring marine turbulence
 <!-- .slide: style="text-align: left;"> -->
-- Very few [:observations](#observations) or [:numerical models](#models) resolve turbulent scales directly 
+- Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
 
 ---
@@ -124,8 +115,18 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 
 ---
 
-## Some definitions
+# :x Caul2021
+Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
+
+# :x Bennetts2024
+tba
+
+## Some quotes
 <!-- .slide: style="text-align: left;"> -->
+
+"Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
+
+> The trends in mixing are difficult and, in many cases, nearly impossible to assess. [:(Bennetts et al., 2024)](#Bennetts2024)
 
 ---
 
@@ -150,5 +151,5 @@ $$\eta(t)\equiv\mathrm{E}z(t)$$
 
 ## Fragment test
 
-- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->
