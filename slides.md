@@ -3,14 +3,6 @@
 <!-- .slide: style="text-align: center; padding: 70px 0;"> -->
 Ole Pinner
 
-<img src=<i class="fa-solid fa-quote-right fa-shake"></i> align="right" width="50" height="50" data-preview-link="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE">
-
----
-
-<i class="fa-solid fa-quote-right"></i>
-
-<i class="fa-solid fa-quote-right fa-shake"></i>
-
 ---
 
 <!-- .slide: style="text-align: center;"> -->
@@ -25,10 +17,9 @@ and so on to viscosity
 
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
-- Chaotic fluid movement, patchy and intermittent 
-- (<a data-preview-image="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png">📸 test link</a>) 
-<img src="" align="right" height="100" data-preview-image /> <!-- .element: class="fragment fade-in-then-out" data-fragment-index="0" -->
-- [: Transport of energy in a cascade from large to small scales](#poem) <!-- .element: class="fragment" data-fragment-index="1" -->
+- 
+- <a href="images/turbulence.png" data-preview-link>Chaotic fluid movement, patchy and intermittent </a> 
+- [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Cause of diapycnal mixing  <!-- .element: class="fragment" data-fragment-index="2" -->
 - (in contrast to horizontal/isopycnal sub-mesoscale stirring)  <!-- .element: class="fragment" data-fragment-index="2" -->
