@@ -6,23 +6,23 @@ Ole Pinner
 ---
 
 <!-- .slide: style="text-align: center;"> -->
-<iframe width="500" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
 ---
 
-# :x poem
-and so on to viscosity
-
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 - 
-- <a href="images/turbulence.png" data-preview-link>Chaotic fluid movement, patchy and intermittent </a> 
+- <a href="/images/turbulence.png" data-preview-link>Chaotic fluid movement, patchy and intermittent </a> 
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Cause of diapycnal mixing  <!-- .element: class="fragment" data-fragment-index="2" -->
 - (in contrast to horizontal/isopycnal sub-mesoscale stirring)  <!-- .element: class="fragment" data-fragment-index="2" -->
+
+# :x poem
+and so on to viscosity
 
 ---
 
