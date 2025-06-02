@@ -14,8 +14,9 @@ Ole Pinner
 
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
-- 
-- <a href="/images/turbulence.png" data-preview-link>Chaotic fluid movement, patchy and intermittent </a> 
+
+- <a href="/images/turbulence.png" data-preview-link>Chaotic movement of fluid </a> [(Source)](10.1175/2007JPO3773.1)
+- "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity  <!-- .element: class="fragment" data-fragment-index="1" -->
 - Cause of diapycnal mixing  <!-- .element: class="fragment" data-fragment-index="2" -->
