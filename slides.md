@@ -8,6 +8,10 @@ Ole Pinner
 <!-- .slide: style="text-align: center;"> -->
 <iframe width="750" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+
+# test page
+test
 
 ---
 
@@ -25,22 +29,17 @@ It is hard to define turbulence precisely.  <img src="/images/turbulence.png" al
 But we can describe by (at minimum) the following properties:
  <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
   1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
-   <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). 
-   **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
   2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
-   <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
   3. **Dissipative**: Energy is transported from [: large to small scales](#poem) 
-  <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
+Together turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
-Together turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
-
---- 
+---
 
 ### What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
-  - Waves (Most important Internal Waves and Lee waves, but also surface waves.)
-  - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
-  - Double Diffusion
+- Waves (Most important Internal Waves and Lee waves, but also surface waves.)
+- Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
+- Double Diffusion
 
  <div class="row">
   <div class="column">
@@ -210,18 +209,14 @@ Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 
 ---
 
-# :x Caul2021
-Layering, Instabilities, and Mixing in Turbulent Stratified Flows, 
-
-# :x Bennetts2024
-tba
-
-### Some quotes
+### Some finishing quotes
 <!-- .slide: style="text-align: left;"> -->
 
-"Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
+"The single paper motivating the most comments, experiments, and disquiet in a lot of readers was Garrett and Munk, 1972. The paper is a virtuoso orchestration of synthesis, approximation, boldness, normalization, and implication." (Briscoe, 1975, cited in Polzin et al, 2011)
 
-"The trends in mixing are difficult and, in many cases, nearly impossible to assess." [:(Bennetts et al., 2024)](#Bennetts2024)
+"Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." (Caul et al., 2021)
+
+"The trends in mixing are difficult and, in many cases, nearly impossible to assess." (Bennetts et al., 2024)
 
 ---
 
