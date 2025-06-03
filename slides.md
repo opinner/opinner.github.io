@@ -20,8 +20,9 @@ and so on to viscosity
 ### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
-It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
 <img src="/images/turbulence.png" align="right" height="120" data-preview-image />
+
+It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
   1. **Random and chaotic**: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
   3. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
   4. **Dissipative**: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
@@ -44,36 +45,47 @@ Together turbulence is the main cause of diapycnal mixing (in contrast to horizo
 ### Why is it important for Climate Research?
 <!-- .slide: style="text-align: left;"> -->
 
-- Surface Mixing: carbon & oxygen exchange between tmosphere and ocean
+- Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
 - Interior Mixing: overturning circulation
 - Bottom Mixing: upwelling, benthic life
 
+Much of the mixing happens over rough bathymetry or at the continental.
+
+--- 
+
+### What is causing turbulence?
+<!-- .slide: style="text-align: left;"> -->
+  - <a data-preview-image="![image.png](https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg)">Waves</a> (Most important [:Internal Waves](#internalwaves) and [Lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904), but also surface waves.)
+  - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
+  - Double Diffusion
+
  <div class="row">
   <div class="column">
-    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+    <img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:100%" data-preview-image />
   </div>
   <div class="column">
-    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif" style="width:100%" data-preview-image />
   </div>
   <div class="column">
-    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+    <img src="https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112020005273/resource/name/S0022112020005273_figAb.png" style="width:100%" data-preview-image />
   </div>
 </div> 
 
+<!-- https://upload.wikimedia.org/wikipedia/commons/d/d8/Kelvin-Helmholtz_Instability.ogv https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif -->
+
 ---
+
+### Internal Waves
+<!-- .slide: style="text-align: left;"> -->
 
 # :x internal waves
 Internal waves are a rabbit hole without any bottom. Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. 
 
-## So what is causing turbulence?
-<!-- .slide: style="text-align: left;"> -->
-  - Waves (Surface waves, [:Internal Waves](#internalwaves), [Lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904))
-  - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
-  - Double Diffusion
+But: Internal waves are a [:rabbit hole without any bottom.](#internal waves) 
 
-Much of the mixing happens over rough bathymetry or at the continental 
+<img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:700px" align="center" data-preview-image />
 
----
+----
 
 # :x Umlauf2020
 The TKE budget equation is taken from [eq 4.23](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.4.3.23) of the lecture scripts by Umlauf and Burchard.
@@ -84,6 +96,7 @@ Assuming the flow is aligned with the x-direction and ignoring all horizontal gr
 
 Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition)  
 [: One can derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
+
 $$
 \begin{aligned}
 \partial_t \text{TKE} +\partial_j \Biggl(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\Biggr)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
@@ -95,7 +108,16 @@ $$
 - buoyancy production $G$: in stable stratification, the conversion from TKE to potential energy
 - dissipation rate $\varepsilon$: conversion to heat due to small-scale shear forces 
 
-Turbulence is often quantified as the rate of energy lost to heat per mass unit, with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
+Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to heat, which has the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
+
+---
+
+$
+\begin{aligned}
+\partial_t \text{TKE} +\partial_j \Biggl(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\Biggr)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
+\frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
+\end{aligned}
+$
 
 ---
 
@@ -109,15 +131,8 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-Assuming no advection and turbulent transport, the steady-
-state budget equation for turbulent kinetic energy (TKE) simplifies to PS 1 B 5
-e, with the production of TKE from mean
-flow shear PS and the buoyancy flux B, balancing the viscous
-dissipation
-e (see methods section). In stable stratification,
-B is a sink for the TKE budget. 
-
 An often used approach is (turbulent) diapycnal diffusivity 
+ $\text{Fickian diffusion}=∂∂z(k∂ψ∂z)
 Time evolution fo bouyancy $b=-g \rho /\rho_0$
 
 $ \frac{\partial b}{\partial t} $
@@ -201,7 +216,9 @@ tba
 <!-- .slide: style="text-align: left;"> -->
 
 - [Lecture notes (2020) by Lars Umlauf and Hans Burchard](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
-- [Ocean mixing: drivers, mechanisms and impacts, Meredith, Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
+- [*Ocean mixing: drivers, mechanisms and impacts* Meredith, Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
+- [*An Introduction to Ocean Turbulence* Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
+- [*The Turbulent Ocean* Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
 
 ---
 
