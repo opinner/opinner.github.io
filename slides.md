@@ -18,12 +18,16 @@ Ole Pinner
 - <a href="/images/turbulence.png" data-preview-link>Chaotic movement of fluid </a> [(Source)](10.1175/2007JPO3773.1)
 - "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
-- Finally, at Kolmogorov microscales allow for  molecular viscosity  <!-- .element: class="fragment" data-fragment-index="1" -->
-- Cause of diapycnal mixing  <!-- .element: class="fragment" data-fragment-index="2" -->
-- (in contrast to horizontal/isopycnal sub-mesoscale stirring)  <!-- .element: class="fragment" data-fragment-index="2" -->
+- Finally, at Kolmogorov microscales allow for  molecular viscosity 
+- Cause of diapycnal mixing 
+- (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
 
 # :x poem
-and so on to viscosity
+  Big whirls have little whirls  
+  that feed on their velocity,  
+  And little whirls have lesser whirls  
+  and so on to viscosity  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lewis F. Richardson, 1922](https://en.wikipedia.org/wiki/Energy_cascade\#cite_note-1)
 
 ---
 
