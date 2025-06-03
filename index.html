@@ -26,6 +26,22 @@
 			font-size: 1.7em;
 		}
 		</style>
+
+		<!-- For images next to each other -->
+		<style>
+			* {
+			box-sizing: border-box;
+			}
+			.row {
+			display: flex;
+			height: 10%;
+			}
+
+			.column {
+			flex: 33.33%;
+			padding: 5px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -80,7 +96,7 @@
     			height: '90%'
 			});
 		</script>
-		
+
 		<script>
 			Reveal.on('ready', () => {
 				Nutshell.start(Reveal.getRevealElement());

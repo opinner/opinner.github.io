@@ -15,27 +15,29 @@ Big whirls have little whirls
 that feed on their velocity,  
 And little whirls have lesser whirls  
 and so on to viscosity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lewis F. Richardson, 1922](https://en.wikipedia.org/wiki/Energy_cascade\#cite_note-1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lewis F. Richardson, 1922](https://archive.org/details/weatherpredictio00richrich/weatherpredictio00richrich/page/66/mode/2up)
 
 ### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
 It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
-  1. Random and chaotic: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). --> 
-  2. Increased transport and mixing:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant <!-- Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
-  3. Vorticity: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
-  4. Dissipative: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
+<img src="/images/turbulence.png" align="right" height="120" data-preview-image />
+  1. **Random and chaotic**: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
+  3. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
+  4. **Dissipative**: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
 
----
+Together turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
 
+<!--
 ### What is turbulence anyway?
-<!-- .slide: style="text-align: left;"> -->
 - <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
 - Chaotic movement of fluid [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1) <img src="/images/turbulence.png" height="50" data-preview-image />
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales 
-- Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
+
 - Despite the chaos, turbulence exhibits [:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
+---
+-->
 
 ---
 
@@ -46,38 +48,54 @@ It is hard to define turbulence precisely. But we can describe by (at minimum) t
 - Interior Mixing: overturning circulation
 - Bottom Mixing: upwelling, benthic life
 
-Notes: Add examples and images
+ <div class="row">
+  <div class="column">
+    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+  </div>
+  <div class="column">
+    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+  </div>
+  <div class="column">
+    <img src="/images/turbulence.png" style="width:100%" data-preview-image />
+  </div>
+</div> 
 
 ---
+
+# :x internal waves
+Internal waves are a rabbit hole without any bottom. Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. 
+
+## So what is causing turbulence?
+<!-- .slide: style="text-align: left;"> -->
+  - Waves (Surface waves, [:Internal Waves](#internalwaves), [Lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904))
+  - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
+  - Double Diffusion
+
+Much of the mixing happens over rough bathymetry or at the continental 
+
+---
+
+# :x Umlauf2020
+The TKE budget equation is taken from [eq 4.23](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.4.3.23) of the lecture scripts by Umlauf and Burchard.
+Assuming the flow is aligned with the x-direction and ignoring all horizontal gradients, the TKE budget can be simplified to the second equation ([eq 6.33](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.6.4.33)). Sᵢⱼ is the shear tensor, 𝒯ₖ denotes the sum of all transport terms. These equations are a part from some different nomenclature equal to eq. 7.13 in *Ocean Mixing*, edited by Meredith and Naveira Garabato.
 
 ### Quantification
 <!-- .slide: style="text-align: left;"> -->
 
-Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations (Chap.7, Meredith2022)
+Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition)  
+[: One can derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
 $$
 \begin{aligned}
-\frac{1}{2}\Biggl[\frac{\partial \overline{u_i^{\prime} u_i^{\prime}}}{\partial t} &+ \bar{u}_j \frac{\partial \overline{u_i^{\prime} u_i^{\prime}}}{\partial x_j}\Biggr] &+ &\overline{u_i^{\prime} u_j^{\prime} \frac{\partial \bar{u}_i+u_i^{\prime}}{\partial x_j}} &\cong  &- \rho_0^{-1} \frac{\partial}{\partial x_i} \overline{u_i^{\prime} p^{\prime}} &+  &\overline{b^{\prime} w^{\prime}}  -\underbrace{\frac{\nu}{2} \overline{\Biggl(\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i}\Biggr)^2}} \\
-&\frac{d}{d t} \text{TKE} &- &\underbrace{\mathcal{P}_k}_{\mathclap{\text{turbulent production}\quad}} + \overbrace{\text{N.L.}}^{\mathclap{\text{nonlinear transports}}} &\cong &\underbrace{P_{\text{work}}}_{\mathclap{\text{pressure work}}} &+ &\overbrace{\mathcal{B}}^{\mathclap{\text{buoyancy flux}}} - \quad \quad \underbrace{\varepsilon}_{\mathclap{\text{dissipation rate}}}.
+\partial_t \text{TKE} +\partial_j \Biggl(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\Biggr)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
+\frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
 \end{aligned}
 $$
-The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat (per mass unit), with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
 
----
+- shear production $P$: conversion from mean-flow energy to TKE, and vice-versa
+- buoyancy production $G$: in stable stratification, the conversion from TKE to potential energy
+- dissipation rate $\varepsilon$: conversion to heat due to small-scale shear forces 
 
-### Some History
-<!-- .slide: style="text-align: left;"> -->
-
-- 1941 Kolmogorov, A. N. ()
-- 1966 Munk Abyssal recipes
-- 1972 Garret & Munk Theoretical description of the internal wave field
-- 1980 Osborn Relation of turbulence and mixing
-- 
-
-Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/oceanog.1991.21
-
----
-
-
+Turbulence is often quantified as the rate of energy lost to heat per mass unit, with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
 
 ---
 
@@ -112,16 +130,16 @@ We are pretty sure $\varGamma$ is not constant [:(Gregg et al., 2018)](#Gregg201
 
 ---
 
-# :x internal waves
-rabbit hole  ([near-inertial](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746), internal tides, [lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904))
-
-## So what is causing turbulence?
+### Some History
 <!-- .slide: style="text-align: left;"> -->
-  - Surface waves 
-  - [: Internal Waves](#internalwaves)
-  - Instabilities (symmetric, baroclinic)
 
-Much of the mixing happens over rough bathymetry or at the continental 
+- 1941 Kolmogorov, A. N. ()
+- 1966 Munk Abyssal recipes
+- 1972 Garret & Munk Theoretical description of the internal wave field
+- 1980 Osborn Relation of turbulence and mixing
+- 
+
+Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/oceanog.1991.21
 
 ---
 
