@@ -22,15 +22,17 @@ and so on to viscosity
 
 <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
 It is hard to define turbulence precisely.  
-But we can describe by (at minimum) the following properties:
- <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
-  1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
-  2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
-  3. **Dissipative**: Energy is transported from [: large to small scales.](#poem) 
+But we can describe it by (at minimum) the following properties:
+
+1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
+2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
+3. **Dissipative**: Energy is transported from [: large to small scales.](#poem) 
 
 Turbulence is the main cause of diapycnal mixing  
 (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
+ <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
+ 
 ---
 
 ## What is causing turbulence?
