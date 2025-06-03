@@ -84,8 +84,7 @@ Assuming the flow is aligned with the x-direction and ignoring all horizontal gr
 ## Quantification
 <!-- .slide: style="text-align: left;"> -->
 
-Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition)  
-[: One can derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
+Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition). One can then [:derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
 
 $
 \partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  = -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle$
