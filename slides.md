@@ -34,7 +34,7 @@ Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isop
 ## What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
 - Waves (Most important Internal Waves and Lee waves, but also surface waves.)
-- Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
+- Instabilities (shear, symmetric, baroclinic) 
 - Double Diffusion
 
  <div class="row">
@@ -177,10 +177,12 @@ Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 - [*Ocean mixing: drivers, mechanisms and impacts*, Meredith & Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
 - [*An Introduction to Ocean Turbulence*, Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
 - [*The Turbulent Ocean*, Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
+- [*Instability in Geophysical Flows*, Smyth & Carpenter](https://directory.doabooks.org/handle/20.500.12854/90836)
 
 
+Also interesting:
 - [*The Study of Mixing in the Ocean: A Brief History*, Gregg 1981](https://doi.org/10.5670/oceanog.1991.21)
-- [Why 5/3 is a fundamental constant for turbulence](https://www.youtube.com/watch?v=_UoTTq651dE)
+- [Video: *Why 5/3 is a fundamental constant for turbulence*](https://www.youtube.com/watch?v=_UoTTq651dE)
 
 ---
 
