@@ -59,14 +59,14 @@ Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isop
 
 - Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
 - Bottom Mixing: upwelling, benthic life
-- **Interior Mixing**: overturning circulation by transforing  water masses 
+- Interior Mixing: overturning circulation by transforing  water masses 
 
 Much of the ocean interior mixing by internal waves happens over rough bathymetry or at the continental margins.
 
 ---
 
 # :x internal waves
-Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
+Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
 
 ## The problem with Internal Waves 
 <!-- .slide: style="text-align: left;"> -->
@@ -98,17 +98,24 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 
 ---
 
+# :x Osborn1980
+With currently 1271 citations, one of the most influential and cited papers: [*Estimates of the Local Rate of Vertical Diffusion from Dissipation Measurements*](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2)
+
+# :x Gregg2018
+[A 33 page review paper from 2018](https://doi.org/10.1146/annurev-marine-121916-063643), solely about mixing efficiency, concludes that 
+"*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
+
 ## Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). 
+An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [:Osborn relation](#Osborn1980). 
 
 $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\newline \text{density}}}{\partial z} \right)$ with $\kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$
 
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are pretty sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s.
+We are sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies by order of magnitudes. But we also have no consistent theory, so we are still often use [:a value from the 80s.](#Gregg2018)
 
 ---
 
@@ -118,19 +125,20 @@ For example eddy covariance or Particle Image Velocimetry
 # :x models
 So called Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
-## Estimating marine turbulence
+## Estimating marine turbulence from observations
 <!-- .slide: style="text-align: left;"> -->
-- Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
+
+Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly:
 - General need for parameterizations (in models and observations)
 - Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales.
 
 Vertical profiles:
   - Microstructure: Shear variability on Millimeter scales(often THE gold standard)
   - Finestructure: Shear variability on Meter scales
-  - Overturns , etc.
+  - Overturns: Unstable segments on 1-100 Meter scales  
 
 ADCP:  
-  - structure function: Velocity variability
+  - structure function: Velocity variability on meter scales
 
 
 ---
