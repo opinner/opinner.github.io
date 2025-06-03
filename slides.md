@@ -53,20 +53,14 @@ Notes: Add examples and images
 ### Quantification
 <!-- .slide: style="text-align: left;"> -->
 
+Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations (Chap.7, Meredith2022)
+$$
+\begin{aligned}
+\frac{1}{2}\Biggl[\frac{\partial \overline{u_i^{\prime} u_i^{\prime}}}{\partial t} &+ \bar{u}_j \frac{\partial \overline{u_i^{\prime} u_i^{\prime}}}{\partial x_j}\Biggr] &+ &\overline{u_i^{\prime} u_j^{\prime} \frac{\partial \bar{u}_i+u_i^{\prime}}{\partial x_j}} &\cong  &- \rho_0^{-1} \frac{\partial}{\partial x_i} \overline{u_i^{\prime} p^{\prime}} &+  &\overline{b^{\prime} w^{\prime}}  -\underbrace{\frac{\nu}{2} \overline{\Biggl(\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i}\Biggr)^2}} \\
+&\frac{d}{d t} \text{TKE} &- &\underbrace{\mathcal{P}_k}_{\mathclap{\text{turbulent production}\quad}} + \overbrace{\text{N.L.}}^{\mathclap{\text{nonlinear transports}}} &\cong &\underbrace{P_{\text{work}}}_{\mathclap{\text{pressure work}}} &+ &\overbrace{\mathcal{B}}^{\mathclap{\text{buoyancy flux}}} - \quad \quad \underbrace{\varepsilon}_{\mathclap{\text{dissipation rate}}}.
+\end{aligned}
+$$
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat (per mass unit), with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
-Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
-
-$$
-\frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 \frac{\partial \nu u_i S_{i j}}{\partial x_j}+\frac{1}{\rho_0} \frac{\partial u_i p}{\partial x_i}=-2 \nu S_{i j} S_{i j}+\frac{\rho}{\rho_0} u_i g_i
-$$
-
-$$
-  \varepsilon = 2\nu s_{ij} s_{ij}\quad\text{where}\quad s_{ij} = \frac{1}{2} (\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i})
-$$
-
-$$
-\frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 
-$$
 
 ---
 
@@ -83,6 +77,10 @@ Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/ocean
 
 ---
 
+
+
+---
+
 # :x Osborn1980
 tba
 
@@ -93,7 +91,18 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
+Assuming no advection and turbulent transport, the steady-
+state budget equation for turbulent kinetic energy (TKE) simplifies to PS 1 B 5
+e, with the production of TKE from mean
+flow shear PS and the buoyancy flux B, balancing the viscous
+dissipation
+e (see methods section). In stable stratification,
+B is a sink for the TKE budget. 
+
 An often used approach is (turbulent) diapycnal diffusivity 
+Time evolution fo bouyancy $b=-g \rho /\rho_0$
+
+$ \frac{\partial b}{\partial t} $
 
 $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ ([Osborn relation](#Osborn1980))
 $$
@@ -113,6 +122,7 @@ rabbit hole  ([near-inertial](https://www.annualreviews.org/doi/10.1146/annurev-
   - Instabilities (symmetric, baroclinic)
 
 Much of the mixing happens over rough bathymetry or at the continental 
+
 ---
 
 # :x eddy covariance
