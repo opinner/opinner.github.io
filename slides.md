@@ -126,9 +126,7 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 
 An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). 
 
-$
-\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{\small Tracer}\newline \text{\small density}}}{\partial z} \right)$ with $\kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
-$
+$\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\newline \text{density}}}{\partial z} \right)$ with $\kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$
 
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
