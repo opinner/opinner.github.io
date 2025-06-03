@@ -32,6 +32,4 @@ $$
 - 1980 Osborn Relation of turbulence and mixing
 - 
 
-Note: 
-
----
+<img src="/images/efficency.png" height="150" /
