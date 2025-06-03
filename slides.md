@@ -20,6 +20,8 @@ and so on to viscosity
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
+- <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
+- <a href="/images/turbulence.png" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
 - "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity 
