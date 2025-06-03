@@ -11,7 +11,6 @@ Ole Pinner
 
 ---
 
-
 # :x poem
 Big whirls have little whirls  
 that feed on their velocity,  
@@ -72,7 +71,7 @@ Much of the mixing happens over rough bathymetry or at the continental.
 ---
 
 # :x internal waves
-Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
+Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
 
 ### The problem of Internal Waves 
 <!-- .slide: style="text-align: left;"> -->
@@ -142,8 +141,14 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the Osborn relation.
-$$\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$$
+An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2).
+$$
+\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
+$$
+
+$$
+\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \text{ Tracer density}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
+$$
 
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
