@@ -20,7 +20,7 @@ and so on to viscosity
 ### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
-<img src="/images/turbulence.png" align="right" height="120" data-preview-image />
+<img src="/images/turbulence.png" height="120" data-preview-image />
 
 It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
   1. **Random and chaotic**: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
@@ -61,13 +61,16 @@ Much of the mixing happens over rough bathymetry or at the continental.
 
  <div class="row">
   <div class="column">
-    <img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:100%" data-preview-image />
+     <!--https://www.researchgate.net/publication/229061177_Structure_and_Generation_of_Turbulence_at_Interfaces_Strained_by_Internal_Solitary_Waves_Propagating_Shoreward_over_the_Continental_Shelf --> 
+    <img src="images/IW.png" style="width:100%" data-preview-image data-preview-fit="contain"/>
   </div>
   <div class="column">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif" style="width:100%" data-preview-image />
+    <!-- https://en.wikipedia.org/wiki/File:Kelvin-Helmholtz_Instability.ogv --> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif" style="width:100%" data-preview-image data-preview-fit="contain"/>
   </div>
   <div class="column">
-    <img src="https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022112020005273/resource/name/S0022112020005273_figAb.png" style="width:100%" data-preview-image />
+    <!-- Ouillon2024 https://doi.org/10.1017/jfm.2020.527 --> 
+    <img src="images/double_diffusion.png" style="width:100%" data-preview-image data-preview-fit="contain"/>
   </div>
 </div> 
 
@@ -75,14 +78,14 @@ Much of the mixing happens over rough bathymetry or at the continental.
 
 ---
 
+# :x internal waves
+Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. 
+
 ### Internal Waves
 <!-- .slide: style="text-align: left;"> -->
+But: Internal waves are a [:rabbit hole without bottom.](#internalwaves) 
 
-# :x internal waves
-Internal waves are a rabbit hole without any bottom. Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. 
-
-But: Internal waves are a [:rabbit hole without any bottom.](#internal waves) 
-
+<!-- MacKinnon2017 https://doi.org/10.1175/BAMS-D-16-0030.1 -->
 <img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:700px" align="center" data-preview-image />
 
 ----
@@ -99,7 +102,7 @@ Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decompo
 
 $$
 \begin{aligned}
-\partial_t \text{TKE} +\partial_j \Biggl(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\Biggr)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
 \end{aligned}
 $$
@@ -112,12 +115,21 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 
 ---
 
-$
+$$
 \begin{aligned}
-\partial_t \text{TKE} +\partial_j \Biggl(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\Biggr)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
 \end{aligned}
-$
+$$
+
+$$
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) = -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
+$$
+
+$$
+\frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
+$$
+
 
 ---
 
