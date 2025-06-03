@@ -32,4 +32,31 @@ $$
 - 1980 Osborn Relation of turbulence and mixing
 - 
 
-<img src="/images/efficency.png" height="150" /
+<img src="/images/efficency.png" height="150" >
+
+
+---
+
+## Math test
+<!-- .slide: style="text-align: left;"> -->
+
+This should be  $\sqrt{a^2 + b^2}$ rendered by: 
+```
+$\pm\sqrt{a^2 + b^2}$
+```
+This is subsequent text and a test of autorender.
+The expected value or ensemble mean of $z(t)$ is
+$$\eta(t)\equiv\mathrm{E}z(t)$$
+
+---
+
+## Lightbox Test
+
+<img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300" data-preview-image />
+
+---
+
+## Fragment test
+
+- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->

@@ -84,7 +84,7 @@ Assuming the flow is aligned with the x-direction and ignoring all horizontal gr
 ## How to quantify turbulence?
 <!-- .slide: style="text-align: left;"> -->
 
-Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition). One can then [:derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
+Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition). One can then derive an euqation for the fluctuating part, the [:Turbulent Kinetic Energy (TKE).](#Umlauf2020)
 
 $$
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
@@ -119,15 +119,11 @@ We are pretty sure $\varGamma$ is [:not constant](#efficiency), but varies over 
 
 ---
 
-# :x eddy covariance
-
-# :x PIV
-
 # :x observations
-For example[:eddy covariance](#eddycovariance) or [:PIV](#PIV)
+For example eddy covariance or Particle Image Velocimetry
 
 # :x models
-Direct numerical simulation (DNS) of the Navier Stokes equations. 
+So called Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
 ## Estimating marine turbulence
 <!-- .slide: style="text-align: left;"> -->
@@ -184,28 +180,3 @@ Also interesting:
 - [*The Study of Mixing in the Ocean: A Brief History*, Gregg 1981](https://doi.org/10.5670/oceanog.1991.21)
 - [Video: *Why 5/3 is a fundamental constant for turbulence*](https://www.youtube.com/watch?v=_UoTTq651dE)
 
----
-
-## Math test
-<!-- .slide: style="text-align: left;"> -->
-
-This should be  $\sqrt{a^2 + b^2}$ rendered by: 
-```
-$\pm\sqrt{a^2 + b^2}$
-```
-This is subsequent text and a test of autorender.
-The expected value or ensemble mean of $z(t)$ is
-$$\eta(t)\equiv\mathrm{E}z(t)$$
-
----
-
-## Lightbox Test
-
-<img src="https://os.copernicus.org/articles/21/701/2025/os-21-701-2025-avatar-web.png" align="right" height="300" data-preview-image />
-
----
-
-## Fragment test
-
-- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
-- Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->
