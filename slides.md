@@ -20,7 +20,6 @@ and so on to viscosity
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
-- <a href="/images/turbulence.png" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
 - "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity 
@@ -43,8 +42,7 @@ Notes: Add examples and images
 ## Quantification
 <!-- .slide: style="text-align: left;"> -->
 
-The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat per mass unit.
-in units of $\frac{\mathrm{J}}{\mathrm{s} \mathrm{kg}}$ 
+The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat (per mass unit), with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
 Appears as a sink term in TKE equation, dependent on tensor of small-scale shear variations.
 
 $$
@@ -63,6 +61,8 @@ $$
 
 - 1941 Kolmogorov, A. N. ()
 - 1966 Munk Abyssal recipes
+- 1972 Garret & Munk Theoretical description of the internal wave field
+- 1980 Osborn Relation of turbulence and mixing
 - 
 
 Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/oceanog.1991.21
@@ -87,22 +87,29 @@ But we also have no consistent theory, so we are still using the value from the 
 
 ---
 
+## So what is causing turbulence?
+<!-- .slide: style="text-align: left;"> -->
+  - Surface waves 
+  - Internal Waves (Wind-induced, internal tides, lee waves)
+  - Instabilities (symmetric, baroclinic)
+
+---
+
 # :x observations
 For example[:eddy covariance](#eddy covariance) or [:PIV](#PIV)
 
 # :x models
 Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
-## Measuring marine turbulence
+## Estimating marine turbulence
 <!-- .slide: style="text-align: left;"> -->
 - Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
-
----
-
-## So what is causing turbulence?
-<!-- .slide: style="text-align: left;"> -->
-  - test1
+- Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales
+    - Microcstructure (often THE gold standard)
+    - Finestructure
+    - Overturns 
+    
 
 ---
 
@@ -118,7 +125,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 
 - Ocean mixing is almost always described as [:dynamically passive.](#passive)
 
-- At AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
+- @AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
 ---
 
@@ -137,7 +144,7 @@ tba
 
 ---
 
-## Resources
+## Recommended Literature
 <!-- .slide: style="text-align: left;"> -->
 
 - [Lecture notes (2020) by Lars Umlauf and Hans Burchard](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
