@@ -20,10 +20,10 @@ and so on to viscosity
 ### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
-<img src="/images/turbulence.png" height="120" data-preview-image />
-
-It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
-  1. **Random and chaotic**: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
+It is hard to define turbulence precisely.  <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
+But we can describe by (at minimum) the following properties:
+ <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
+  1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
   3. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
   4. **Dissipative**: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
 
@@ -40,22 +40,10 @@ Together turbulence is the main cause of diapycnal mixing (in contrast to horizo
 ---
 -->
 
----
-
-### Why is it important for Climate Research?
-<!-- .slide: style="text-align: left;"> -->
-
-- Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
-- Interior Mixing: overturning circulation
-- Bottom Mixing: upwelling, benthic life
-
-Much of the mixing happens over rough bathymetry or at the continental.
-
 --- 
 
 ### What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
-  - <a data-preview-image="![image.png](https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg)">Waves</a> (Most important [:Internal Waves](#internalwaves) and [Lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904), but also surface waves.)
   - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
   - Double Diffusion
 
@@ -75,6 +63,17 @@ Much of the mixing happens over rough bathymetry or at the continental.
 </div> 
 
 <!-- https://upload.wikimedia.org/wikipedia/commons/d/d8/Kelvin-Helmholtz_Instability.ogv https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif -->
+
+---
+
+### Why is it important for Climate Research?
+<!-- .slide: style="text-align: left;"> -->
+
+- Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
+- Interior Mixing: overturning circulation
+- Bottom Mixing: upwelling, benthic life
+
+Much of the mixing happens over rough bathymetry or at the continental.
 
 ---
 
@@ -123,7 +122,11 @@ $$
 $$
 
 $$
-\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) = -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) = 
+$$
+
+$$
+-\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
 $$
 
 $$
@@ -143,13 +146,9 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-An often used approach is (turbulent) diapycnal diffusivity 
- $\text{Fickian diffusion}=∂∂z(k∂ψ∂z)
-Time evolution fo bouyancy $b=-g \rho /\rho_0$
+An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the Osborn relation.
+$$\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$$
 
-$ \frac{\partial b}{\partial t} $
-
-$ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ ([Osborn relation](#Osborn1980))
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
@@ -207,6 +206,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 - @AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
 Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
+
 ---
 
 # :x Caul2021
@@ -227,10 +227,10 @@ tba
 ### Recommended Literature
 <!-- .slide: style="text-align: left;"> -->
 
-- [Lecture notes (2020) by Lars Umlauf and Hans Burchard](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
-- [*Ocean mixing: drivers, mechanisms and impacts* Meredith, Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
-- [*An Introduction to Ocean Turbulence* Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
-- [*The Turbulent Ocean* Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
+- [Lecture notes by Lars Umlauf and Hans Burchard, 2020](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
+- [*Ocean mixing: drivers, mechanisms and impacts*, Meredith & Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
+- [*An Introduction to Ocean Turbulence*, Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
+- [*The Turbulent Ocean*, Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
 
 ---
 
