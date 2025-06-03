@@ -8,9 +8,8 @@ Ole Pinner
 <!-- .slide: style="text-align: center;"> -->
 <iframe width="750" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 ---
+
 # :x poem
 Big whirls have little whirls  
 that feed on their velocity,  
@@ -25,12 +24,13 @@ and so on to viscosity
 - "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity 
-- Cause of diapycnal mixing 
-- (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
+- Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
+- [:3blue1brown](https://www.youtube.com/watch?v=_UoTTq651dE)
 
 ---
 
 ## Why is it important for Climate Research?
+<!-- .slide: style="text-align: left;"> -->
 
 - Surface Mixing: Carbon & oxygen exchange, 
 - Interior Mixing: Overturning
@@ -55,6 +55,17 @@ $$
 $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 
 $$
+
+---
+
+## Some History
+<!-- .slide: style="text-align: left;"> -->
+
+- 1941 Kolmogorov, A. N. ()
+- 1966 Munk Abyssal recipes
+- 
+
+Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/oceanog.1991.21
 
 ---
 
@@ -90,6 +101,7 @@ Direct numerical simulation (DNS) of the Navier Stokes equations.
 ---
 
 ## So what is causing turbulence?
+<!-- .slide: style="text-align: left;"> -->
   - test1
 
 ---
@@ -121,7 +133,15 @@ tba
 
 "Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
 
-> The trends in mixing are difficult and, in many cases, nearly impossible to assess. [:(Bennetts et al., 2024)](#Bennetts2024)
+"The trends in mixing are difficult and, in many cases, nearly impossible to assess." [:(Bennetts et al., 2024)](#Bennetts2024)
+
+---
+
+## Resources
+<!-- .slide: style="text-align: left;"> -->
+
+- [Lecture notes (2020) by Lars Umlauf and Hans Burchard](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
+- [Ocean mixing: drivers, mechanisms and impacts, Meredith, Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
 
 ---
 
