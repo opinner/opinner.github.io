@@ -20,11 +20,20 @@ and so on to viscosity
 ### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
+It is hard to define turbulence precisely. But we can describe by (at minimum) the following properties: <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
+  1. Random and chaotic: Turbulent "hot spots" are patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). --> 
+  2. Increased transport and mixing:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant <!-- Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
+  3. Vorticity: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
+  4. Dissipative: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
+
+---
+
+### What is turbulence anyway?
+<!-- .slide: style="text-align: left;"> -->
 - <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
 - Chaotic movement of fluid [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1) <img src="/images/turbulence.png" height="50" data-preview-image />
-- "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
-- Finally, at Kolmogorov microscales allow for  molecular viscosity 
+- Finally, at Kolmogorov microscales 
 - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
 - Despite the chaos, turbulence exhibits [:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
 
@@ -51,6 +60,9 @@ $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 \frac{\partial \nu u_i S_{i j}}{\partial x_j}+\frac{1}{\rho_0} \frac{\partial u_i p}{\partial x_i}=-2 \nu S_{i j} S_{i j}+\frac{\rho}{\rho_0} u_i g_i
 $$
 
+$$
+  \varepsilon = 2\nu s_{ij} s_{ij}\quad\text{where}\quad s_{ij} = \frac{1}{2} (\frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i})
+$$
 
 $$
 \frac{\partial E}{\partial t}+u_i \frac{\partial E}{\partial x_i}-2 
@@ -81,12 +93,13 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ ([Osborn relation](#Osborn1980))
+An often used approach is (turbulent) diapycnal diffusivity 
+
+$ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ ([Osborn relation](#Osborn1980))
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are pretty sure $\varGamma$ is not constant. It can even vary over magnitudes. 
-But we also have no consistent theory, so we are still using the value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
+We are pretty sure $\varGamma$ is not constant [:(Gregg et al., 2018)](#Gregg2018), but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s.
 
 ---
 
@@ -99,6 +112,7 @@ rabbit hole  ([near-inertial](https://www.annualreviews.org/doi/10.1146/annurev-
   - [: Internal Waves](#internalwaves)
   - Instabilities (symmetric, baroclinic)
 
+Much of the mixing happens over rough bathymetry or at the continental 
 ---
 
 # :x eddy covariance
