@@ -21,12 +21,12 @@ and so on to viscosity
 <!-- .slide: style="text-align: left;"> -->
 
 - <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
-- <a href="/images/turbulence.png" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
+- Chaotic movement of fluid [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1) <img src="/images/turbulence.png" height="50" data-preview-image />
 - "Turbulent hot spots" are patchy and intermittent
 - [: Transport of energy in a cascade from large to small scales](#poem) 
 - Finally, at Kolmogorov microscales allow for  molecular viscosity 
 - Cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
-- [:3blue1brown](https://www.youtube.com/watch?v=_UoTTq651dE)
+- Despite the chaos, turbulence exhibits [:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
 
 ---
 
@@ -101,8 +101,12 @@ rabbit hole  ([near-inertial](https://www.annualreviews.org/doi/10.1146/annurev-
 
 ---
 
+# :x eddy covariance
+
+# :x PIV
+
 # :x observations
-For example[:eddy covariance](#eddy covariance) or [:PIV](#PIV)
+For example[:eddy covariance](#eddycovariance) or [:PIV](#PIV)
 
 # :x models
 Direct numerical simulation (DNS) of the Navier Stokes equations. 
@@ -112,7 +116,7 @@ Direct numerical simulation (DNS) of the Navier Stokes equations.
 - Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
 - Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales
-    - Microcstructure (often THE gold standard)
+    - Microstructure (often THE gold standard)
     - Finestructure
     - Overturns 
     
@@ -133,6 +137,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 
 - @AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
+Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 ---
 
 # :x Caul2021
