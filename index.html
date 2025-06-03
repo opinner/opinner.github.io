@@ -50,6 +50,9 @@
 		<style>
 			.nutshell-expandable{
         		color: #657b83, /* HACK: Somehow also the nutshell links turned blue. Here I try to force them to have the text color */
+		}   
+			.nutshell-expandable:hover{
+        		color: #657b83,
 		}
 		</style>
 		<style>
@@ -77,16 +80,11 @@
     			height: '90%'
 			});
 		</script>
-		<style>
-			.nutshell-expandable{
-        		color: #657b83, /* HACK: Somehow also the nutshell links turned blue. Here I try to force them to have the text color */
-		}
-		</style>
+		
 		<script>
 			Reveal.on('ready', () => {
 				Nutshell.start(Reveal.getRevealElement());
 			});
 		</script>
-
 	</body>
 </html>

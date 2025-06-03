@@ -33,9 +33,9 @@ and so on to viscosity
 ### Why is it important for Climate Research?
 <!-- .slide: style="text-align: left;"> -->
 
-- Surface Mixing: Carbon & oxygen exchange, 
-- Interior Mixing: Overturning
-- Bottom Mixing: Upwelling, benthic life
+- Surface Mixing: carbon & oxygen exchange between tmosphere and ocean
+- Interior Mixing: overturning circulation
+- Bottom Mixing: upwelling, benthic life
 
 Notes: Add examples and images
 
