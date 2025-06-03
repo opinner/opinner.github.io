@@ -58,10 +58,10 @@ Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isop
 <!-- .slide: style="text-align: left;"> -->
 
 - Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
-- Interior Mixing: overturning circulation
 - Bottom Mixing: upwelling, benthic life
+- **Interior Mixing**: overturning circulation by transforing  water masses 
 
-Much of the mixing happens over rough bathymetry or at the continental.
+Much of the ocean interior mixing by internal waves happens over rough bathymetry or at the continental margins.
 
 ---
 
@@ -98,11 +98,7 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 
 ---
 
-# :x Gregg2018
-The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency concludes that 
-"*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
-
-### Relation to Mixing
+## Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
 An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). 
@@ -112,7 +108,7 @@ $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\part
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are pretty sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
+We are pretty sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s.
 
 ---
 
@@ -126,17 +122,22 @@ So called Direct numerical simulation (DNS) of the Navier Stokes equations.
 <!-- .slide: style="text-align: left;"> -->
 - Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
-- Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales
-    - Microstructure (often THE gold standard)
-    - Finestructure
-    - Overturns 
-    
+- Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales.
+
+Vertical profiles:
+  - Microstructure: Shear variability on Millimeter scales(often THE gold standard)
+  - Finestructure: Shear variability on Meter scales
+  - Overturns , etc.
+
+ADCP:  
+  - structure function: Velocity variability
+
 
 ---
 
 # :x passive
 Meaning, mixing does not change how the ocean adjusts to changes in climatic forcing. 
-Diffusive coefficients in models are prescribed and not dynamically adjusted. But recent findings indicate otherwise. Many fast interactions between mixing processes and large scale behavior were found ([Meredith2022, Chapter 1 and references therein](https://doi.org/10.1016/C2019-0-03674-6))
+Diffusive coefficients in models are often prescribed and not dynamically adjusted. But recent findings indicate otherwise. Many fast interactions between mixing processes and large scale behavior were found ([Meredith2022, Chapter 1 and references therein](https://doi.org/10.1016/C2019-0-03674-6))
 
 # :x artemics
 Development of a parameterization of internal waves in the Arctic Ocean and use in climate models to research links and feedback mechanisms between declining sea ice, wave-induced mixing, stratification and heat transport. 
@@ -144,15 +145,13 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 ### What are current research questions?
 <!-- .slide: style="text-align: left;"> -->
 
-- Ocean mixing is almost always described as [:dynamically passive.](#passive)
+- Ocean mixing is almost always described as [:dynamically passive.](#passive). A better representation of turbulence/ mixing in numerical models may be needed to accurately forecast changing polar oceans. 
 
 - @AWI: new [:Emmy Noether group Artemics](#artemics) in Climate Dynamics by Friederike Pollmann
 
-Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
-
 ---
 
-## Some finishing quotes
+## Some quotes at the Ends
 <!-- .slide: style="text-align: left;"> -->
 
 "The single paper motivating the most comments, experiments, and disquiet in a lot of readers was Garrett and Munk, 1972. The paper is a virtuoso orchestration of synthesis, approximation, boldness, normalization, and implication." (Briscoe, 1975, cited in Polzin et al, 2011)
