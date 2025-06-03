@@ -10,11 +10,6 @@ Ole Pinner
 
 ---
 
-# test page
-test
-
----
-
 # :x poem
 Big whirls have little whirls  
 that feed on their velocity,  
@@ -22,7 +17,7 @@ And little whirls have lesser whirls
 and so on to viscosity  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lewis F. Richardson, 1922](https://archive.org/details/weatherpredictio00richrich/weatherpredictio00richrich/page/66/mode/2up)
 
-### What is turbulence anyway?
+## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
 It is hard to define turbulence precisely.  <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
@@ -35,7 +30,7 @@ Together turbulence is the main cause of diapycnal mixing (in contrast to horizo
 
 ---
 
-### What is causing turbulence?
+## What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
 - Waves (Most important Internal Waves and Lee waves, but also surface waves.)
 - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
@@ -58,7 +53,7 @@ Together turbulence is the main cause of diapycnal mixing (in contrast to horizo
 
 ---
 
-### Why is it important for Climate Research?
+## Why is it important for Climate Research?
 <!-- .slide: style="text-align: left;"> -->
 
 - Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
@@ -72,7 +67,7 @@ Much of the mixing happens over rough bathymetry or at the continental.
 # :x internal waves
 Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
 
-### The problem of Internal Waves 
+## The problem of Internal Waves 
 <!-- .slide: style="text-align: left;"> -->
 But: Internal waves are a [:rabbit hole without bottom.](#internalwaves) 
 
@@ -85,7 +80,7 @@ But: Internal waves are a [:rabbit hole without bottom.](#internalwaves)
 The TKE budget equation is taken from [eq 4.23](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.4.3.23) of the lecture scripts by Umlauf and Burchard.
 Assuming the flow is aligned with the x-direction and ignoring all horizontal gradients, the TKE budget can be simplified to the second equation ([eq 6.33](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.6.4.33)). Sᵢⱼ is the shear tensor, 𝒯ₖ denotes the sum of all transport terms. These equations are a part from some different nomenclature equal to eq. 7.13 in *Ocean Mixing*, edited by Meredith and Naveira Garabato.
 
-### Quantification
+## Quantification
 <!-- .slide: style="text-align: left;"> -->
 
 Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition)  
@@ -114,24 +109,19 @@ $$
 $$
 
 $$
-\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) = 
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) =
 $$
 
 $$
--\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
+-\langle u_i^{\prime} u_j^{\prime}\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\langle u_3^{\prime} \rho^{\prime}\rangle- 2 \nu\langle S_{i j}^{\prime} S_{i j}^{\prime}\rangle 
 $$
 
-$u^\prime$
 
 $$
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
 $$
 
-
 ---
-
-# :x Osborn1980
-tba
 
 # :x Gregg2018
 The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency concludes that 
@@ -145,9 +135,9 @@ $$
 \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
 $$
 
-$$
+$
 \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \text{ Tracer density}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
-$$
+$
 
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
