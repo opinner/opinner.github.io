@@ -37,7 +37,7 @@ Turbulence is the main cause of diapycnal mixing
 
 ## What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
-- Waves (Most important Internal Waves and Lee waves, but also surface waves.)
+- Waves (internal, surface)
 - Instabilities (shear, symmetric, baroclinic) 
 - Double Diffusion
 
