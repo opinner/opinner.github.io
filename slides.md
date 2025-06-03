@@ -25,8 +25,9 @@ But we can describe by (at minimum) the following properties:
  <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
   1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
   2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
-  3. **Dissipative**: Energy is transported from [: large to small scales](#poem) 
-Together turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
+  3. **Dissipative**: Energy is transported from [: large to small scales.](#poem) 
+
+Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
 ---
 
@@ -114,6 +115,9 @@ $$
 
 ---
 
+# :x efficiency
+<img src="/images/efficency.png" height="150" /> 
+
 # :x Gregg2018
 The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency concludes that 
 "*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
@@ -121,14 +125,11 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2).
-
-$ \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2} $
-
+An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). $ \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{\small Tracer}\\{\text{\small density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2} $
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are pretty sure $\varGamma$ is not constant [:(Gregg et al., 2018)](#Gregg2018), but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s.
+We are pretty sure $\varGamma$ is [:not constant](#efficiency), but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
 ---
 
@@ -141,7 +142,7 @@ We are pretty sure $\varGamma$ is not constant [:(Gregg et al., 2018)](#Gregg201
 - 1980 Osborn Relation of turbulence and mixing
 - 
 
-Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/oceanog.1991.21
+Note: 
 
 ---
 
@@ -155,7 +156,7 @@ For example[:eddy covariance](#eddycovariance) or [:PIV](#PIV)
 # :x models
 Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
-### Estimating marine turbulence
+## Estimating marine turbulence
 <!-- .slide: style="text-align: left;"> -->
 - Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
@@ -185,7 +186,7 @@ Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 
 ---
 
-### Some finishing quotes
+## Some finishing quotes
 <!-- .slide: style="text-align: left;"> -->
 
 "The single paper motivating the most comments, experiments, and disquiet in a lot of readers was Garrett and Munk, 1972. The paper is a virtuoso orchestration of synthesis, approximation, boldness, normalization, and implication." (Briscoe, 1975, cited in Polzin et al, 2011)
@@ -196,7 +197,7 @@ Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 
 ---
 
-### Recommended Literature
+## Recommended Literature
 <!-- .slide: style="text-align: left;"> -->
 
 - [Lecture notes by Lars Umlauf and Hans Burchard, 2020](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
@@ -204,7 +205,9 @@ Notes: Arctic: Rippeth Changing Ocean Antarctic Silvano, Bennets2024
 - [*An Introduction to Ocean Turbulence*, Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
 - [*The Turbulent Ocean*, Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
 
-[:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
+
+- [*The Study of Mixing in the Ocean: A Brief History*, Gregg 1981](https://doi.org/10.5670/oceanog.1991.21)
+- [Why 5/3 is a fundamental constant for turbulence](https://www.youtube.com/watch?v=_UoTTq651dE)
 
 ---
 
