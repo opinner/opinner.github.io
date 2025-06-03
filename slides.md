@@ -89,10 +89,13 @@ But we also have no consistent theory, so we are still using the value from the 
 
 ---
 
+# :x internal waves
+rabbit hole  ([near-inertial](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746), internal tides, [lee waves](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904))
+
 ## So what is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
   - Surface waves 
-  - Internal Waves (Wind-induced, internal tides, lee waves)
+  - [: Internal Waves](#internalwaves)
   - Instabilities (symmetric, baroclinic)
 
 ---
