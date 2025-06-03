@@ -22,3 +22,16 @@ $$
 $$
 -\langle u_i^{\prime} u_j^{\prime}\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\langle u_3^{\prime} \rho^{\prime}\rangle- 2 \nu\langle S_{i j}^{\prime} S_{i j}^{\prime}\rangle 
 $$
+
+### Some History
+<!-- .slide: style="text-align: left;"> -->
+
+- 1941 Kolmogorov, A. N. ()
+- 1966 Munk Abyssal recipes
+- 1972 Garret & Munk Theoretical description of the internal wave field
+- 1980 Osborn Relation of turbulence and mixing
+- 
+
+Note: 
+
+---
