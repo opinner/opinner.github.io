@@ -98,7 +98,7 @@ $$
 - buoyancy production $G$: in stable stratification, the conversion from TKE to potential energy
 - dissipation rate $\varepsilon$: conversion to heat due to small-scale shear forces 
 
-Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to heat, which has the units $\mathrm{J}\:\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\:\mathrm{kg}^{-1}$.
+Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to heat, which has the units $\mathrm{J}\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\mathrm{kg}^{-1}$.
 
 ---
 
@@ -119,7 +119,7 @@ $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\part
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-Why are we using [:a value from the 80s.](#Gregg2018)? We are sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies by order of magnitudes. But we also still have no consistent theory.
+Why are we using [:a theory from the 80s](#Gregg2018)? We are sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies by order of magnitudes. But we also still have no consistent theory.
 
 ---
 
