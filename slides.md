@@ -20,14 +20,16 @@ and so on to viscosity
 ## What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
-It is hard to define turbulence precisely.  <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
+<img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
+It is hard to define turbulence precisely.  
 But we can describe by (at minimum) the following properties:
  <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
   1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
   2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
   3. **Dissipative**: Energy is transported from [: large to small scales.](#poem) 
 
-Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)
+Turbulence is the main cause of diapycnal mixing  
+(in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
 ---
 
@@ -57,11 +59,11 @@ Turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isop
 ## Why is it important for Climate Research?
 <!-- .slide: style="text-align: left;"> -->
 
-- Surface Mixing: carbon & oxygen exchange between atmosphere and ocean
-- Bottom Mixing: upwelling, benthic life
-- Interior Mixing: overturning circulation by transforing  water masses 
+- **Surface Mixing**: carbon & oxygen exchange between atmosphere and ocean
+- **Bottom Mixing**: upwelling, benthic life
+- **Interior Mixing**: overturning circulation by transforing  water masses 
 
-Much of the ocean interior mixing by internal waves happens over rough bathymetry or at the continental margins.
+Most of the mixing in the ocean interior is caused by internal waves and happens over rough bathymetry or at the continental margins.
 
 ---
 
@@ -79,7 +81,7 @@ But: Internal waves are a [:rabbit hole without bottom.](#internalwaves)
 
 # :x Umlauf2020
 The TKE budget equation is taken from [eq 4.23](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.4.3.23) of the lecture scripts by Umlauf and Burchard.
-Assuming the flow is aligned with the x-direction and ignoring all horizontal gradients, the TKE budget can be simplified to the second equation ([eq 6.33](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.6.4.33)). Sᵢⱼ is the shear tensor, 𝒯ₖ denotes the sum of all transport terms. These equations are a part from some different nomenclature equal to eq. 7.13 in *Ocean Mixing*, edited by Meredith and Naveira Garabato.
+Assuming the flow is aligned with the x-direction and ignoring all horizontal gradients, the TKE budget can be simplified to the second equation ([eq 6.33](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.6.4.33)). 𝒯ₖ denotes the sum of all transport terms. These equations are a part from some different nomenclature equal to eq. 7.13 in *Ocean Mixing*, edited by Meredith and Naveira Garabato.
 
 ## How to quantify turbulence?
 <!-- .slide: style="text-align: left;"> -->
@@ -99,7 +101,7 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 ---
 
 # :x Osborn1980
-With currently 1271 citations, one of the most influential and cited papers: [*Estimates of the Local Rate of Vertical Diffusion from Dissipation Measurements*](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2)
+With currently 1271 citations, one of the most cited and influential papers: [*Estimates of the Local Rate of Vertical Diffusion from Dissipation Measurements*](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2)
 
 # :x Gregg2018
 [A 33 page review paper from 2018](https://doi.org/10.1146/annurev-marine-121916-063643), solely about mixing efficiency, concludes that 
@@ -115,7 +117,7 @@ $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\part
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies by order of magnitudes. But we also have no consistent theory, so we are still often use [:a value from the 80s.](#Gregg2018)
+Why are we using [:a value from the 80s.](#Gregg2018)? We are sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies by order of magnitudes. But we also still have no consistent theory.
 
 ---
 
@@ -133,9 +135,9 @@ Very few [:observational methods](#observations) or [:numerical models](#models)
 - Parameterizations from observational data range from more to less trustworthy, dependent on their measured scales.
 
 Vertical profiles:
-  - Microstructure: Shear variability on Millimeter scales(often THE gold standard)
+  - Microstructure: Shear variability on Millimeter scales (often THE gold standard)
   - Finestructure: Shear variability on Meter scales
-  - Overturns: Unstable segments on 1-100 Meter scales  
+  - Overturns: Size of unstable segments on 1-100 Meter scales  
 
 ADCP:  
   - structure function: Velocity variability on meter scales
@@ -177,7 +179,7 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 - [*Ocean mixing: drivers, mechanisms and impacts*, Meredith & Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
 - [*An Introduction to Ocean Turbulence*, Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
 - [*The Turbulent Ocean*, Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
-- [*Instability in Geophysical Flows*, Smyth & Carpenter](https://directory.doabooks.org/handle/20.500.12854/90836)
+- [*Instability in Geophysical Flows*, Smyth & Carpenter 2019](https://directory.doabooks.org/handle/20.500.12854/90836)
 
 
 Also interesting:
