@@ -8,7 +8,9 @@ Ole Pinner
 <!-- .slide: style="text-align: center;"> -->
 <iframe width="750" height="500" src="https://www.youtube-nocookie.com/embed/dx60zMgrP8c?si=XigMQX2jLH0f9cK3&amp;controls=0&amp;start=270&amp;clip=UgkxFI5A1VWDtfoEXQW0F0Um66B-w0yU5rNk&amp;clipt=ELy5EBi3lhE" title="YouTube video player" frameborder="3" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 ---
+
 
 # :x poem
 Big whirls have little whirls  
@@ -23,27 +25,21 @@ and so on to viscosity
 It is hard to define turbulence precisely.  <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
 But we can describe by (at minimum) the following properties:
  <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
-  1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). -->    <!-- 2. **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
-  3. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
-  4. **Dissipative**: Energy is transported from [: large to small scales](#poem) <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
+  1. **Random and chaotic**: Turbulence patchy and intermittent and can only be described statistically
+   <!-- Turbulent flows generate stochastic data sets both in time and in space. Small uncertainties in the initial and boundary conditions quickly amplify, rendering a deterministic description of individual turbulent fluctuations impossible. Often possible is, however, the prediction of statistical quantities (statistical moments, correlations, probability distributions). 
+   **Increased transport and mixing**:  the generation of sharp gradients and increased contact surfaces allow molecular diffusion to become relevant  Turbulent flows generally show strongly increased mixing and transport rates of matter, heat, and momentum. As shown above, the reason for this is the generation of sharp gradients and increased contact surfaces due to the complex strain field associated with the turbulent motions.  -->
+  2. **Whirly**: Turbulent flows exhibit vortices, whirls, and eddying motions
+   <!-- . These vortices (often called “eddies” in oceanography) involve a wide range of spatial wave lengths, ranging from the largest scales imposed by the bounding geometry down to the smallest scales, where eddies are dissipated due to molecular (viscous) smoothing.  -->
+  3. **Dissipative**: Energy is transported from [: large to small scales](#poem) 
+  <!-- Turbulence is “dissipative”, meaning that kinetic energy is dissipated into heat due to viscous friction at the smallest scales. Similarly, also scalar fluctuations are smoothed (or dissipated) be molecular diffusion, implying that the overall scalar variance is reduced (see our coffee example). Thus, a mechanism must exist transporting energy and scalar variance from the largest scales, where they are introduced to the system, towards the smallest scales, where they are dissipated. As shown in later sections, this mechanism is tightly connected to the non-linear advection terms in the transport equations. -->
 
 Together turbulence is the main cause of diapycnal mixing (in contrast to horizontal/isopycnal sub-mesoscale stirring)  
-
-<!--
-### What is turbulence anyway?
-- <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
-- Chaotic movement of fluid [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1) <img src="/images/turbulence.png" height="50" data-preview-image />
-- [: Transport of energy in a cascade from large to small scales](#poem) 
-- Finally, at Kolmogorov microscales 
-
-- Despite the chaos, turbulence exhibits [:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
----
--->
 
 --- 
 
 ### What is causing turbulence?
 <!-- .slide: style="text-align: left;"> -->
+  - Waves (Most important Internal Waves and Lee waves, but also surface waves.)
   - Instabilities (symmetric, baroclinic) [Instability in Geophysical Flows](https://directory.doabooks.org/handle/20.500.12854/90836)
   - Double Diffusion
 
@@ -62,8 +58,6 @@ Together turbulence is the main cause of diapycnal mixing (in contrast to horizo
   </div>
 </div> 
 
-<!-- https://upload.wikimedia.org/wikipedia/commons/d/d8/Kelvin-Helmholtz_Instability.ogv https://upload.wikimedia.org/wikipedia/commons/8/8e/KHI.gif -->
-
 ---
 
 ### Why is it important for Climate Research?
@@ -78,7 +72,7 @@ Much of the mixing happens over rough bathymetry or at the continental.
 ---
 
 # :x internal waves
-Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. 
+Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is still a preprint of currently over 500 pages. Shorter introduction are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
 
 ### Internal Waves
 <!-- .slide: style="text-align: left;"> -->
@@ -128,6 +122,8 @@ $$
 $$
 -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
 $$
+
+$u^\prime$
 
 $$
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
@@ -231,6 +227,8 @@ tba
 - [*Ocean mixing: drivers, mechanisms and impacts*, Meredith & Naveira Garabato et al., 2022](https://doi.org/10.1016/C2019-0-03674-6)
 - [*An Introduction to Ocean Turbulence*, Thorpe 2007](https://www.cambridge.org/core/product/identifier/9780511801198/type/book)
 - [*The Turbulent Ocean*, Thorpe 2005](https://doi.org/10.1017/CBO9780511819933)
+
+[:self similarity across scales](https://www.youtube.com/watch?v=_UoTTq651dE)
 
 ---
 
