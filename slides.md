@@ -86,12 +86,12 @@ Assuming the flow is aligned with the x-direction and ignoring all horizontal gr
 Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition)  
 [: One can derive an equation](#Umlauf2020) for the fluctuating part, the Turbulent Kinetic Energy (TKE)
 
-$$
+$
 \begin{aligned}
 \partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
 \end{aligned}
-$$
+$
 
 - shear production $P$: conversion from mean-flow energy to TKE, and vice-versa
 - buoyancy production $G$: in stable stratification, the conversion from TKE to potential energy
@@ -103,19 +103,10 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 
 $$
 \begin{aligned}
-\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  &= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle \\
-\frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} &= P +G - \varepsilon
+\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right)  \\
+= -\left\langle u_i^{\prime} u_j^{\prime}\right\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\left\langle u_3^{\prime} \rho^{\prime}\right\rangle- 2 \nu\left\langle S_{i j}^{\prime} S_{i j}^{\prime}\right\rangle 
 \end{aligned}
 $$
-
-$$
-\partial_t \text{TKE} +\partial_j \left(\bar{u}_j \text{TKE}+\frac{1}{2}\left\langle u_i^{\prime} u_i^{\prime} u_j^{\prime}\right\rangle-2 \nu\left\langle u_i^{\prime} S_{i j}^{\prime}\right\rangle+\frac{\left\langle u_j^{\prime} p^{\prime}\right\rangle}{\rho_0}\right) =
-$$
-
-$$
--\langle u_i^{\prime} u_j^{\prime}\rangle \bar{S}_{i j}- \frac{g}{\rho_0}\langle u_3^{\prime} \rho^{\prime}\rangle- 2 \nu\langle S_{i j}^{\prime} S_{i j}^{\prime}\rangle 
-$$
-
 
 $$
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
@@ -131,13 +122,8 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 <!-- .slide: style="text-align: left;"> -->
 
 An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2).
-$$
-\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
-$$
 
-$
-\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \text{ Tracer density}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}
-$
+$ \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{Tracer}\\{\text{density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2} $
 
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
