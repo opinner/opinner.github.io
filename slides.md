@@ -167,13 +167,13 @@ Development of a parameterization of internal waves in the Arctic Ocean and use 
 <!-- .slide: style="text-align: left;"> -->
 
 "The single paper motivating the most comments, experiments, and disquiet in a lot of readers was Garrett and Munk, 1972. The paper is a virtuoso orchestration of synthesis, approximation, boldness, normalization, and implication."  
-(Briscoe, 1975, cited in Polzin et al, 2011)
+[(Briscoe, 1975, cited in Polzin & Lvov, 2011)](https://doi.org/10.1029/2010RG000329)
 
 "Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing."  
-(Caul et al., 2021)
+[(Caulfield et al., 2021)](https://doi.org/10.1146/annurev-fluid-042320-100458)
 
 "The trends in mixing are difficult and, in many cases, nearly impossible to assess."  
-(Bennetts et al., 2024)
+[(Bennetts et al., 2024)](https://doi.org/10.1029/2022RG000781)
 
 ---
 
