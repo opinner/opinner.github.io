@@ -21,6 +21,7 @@ and so on to viscosity
 <!-- .slide: style="text-align: left;"> -->
 
 <img src="/images/turbulence.png" align = "right" height="120" data-preview-image />  
+<!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
 It is hard to define turbulence precisely.  
 But we can describe it by (at minimum) the following properties:
 
@@ -31,8 +32,7 @@ But we can describe it by (at minimum) the following properties:
 Turbulence is the main cause of diapycnal mixing  
 (in contrast to horizontal/isopycnal sub-mesoscale stirring)
 
- <!-- Inspired by and adapted from the lecture script of Umlauf and Burchard --> 
- 
+
 ---
 
 ## What is causing turbulence?
