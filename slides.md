@@ -66,7 +66,7 @@ Much of the ocean interior mixing by internal waves happens over rough bathymetr
 ---
 
 # :x internal waves
-Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*) or [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves. For lee waves, see [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
+Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is a preprint of currently over 500 pages. Shorter introductions are [*The lifecycle of topographically-generated internal waves*](vhttps://linkinghub.elsevier.com/retrieve/pii/B978012821512800013X), (Chapter 6 of the Book *Ocean Mixing*), [*Internal Tide Generation in the Deep Ocean*](https://doi.org/10.1146/annurev.fluid.39.050905.110227), [*Near-Inertial Internal Gravity Waves in the Ocean*](https://www.annualreviews.org/doi/10.1146/annurev-marine-010814-015746) for wind-generated internal waves, or [*Mixing by Oceanic Lee Waves*.](https://www.annualreviews.org/doi/10.1146/annurev-fluid-051220-043904)
 
 ## The problem with Internal Waves 
 <!-- .slide: style="text-align: left;"> -->
