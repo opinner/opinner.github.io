@@ -125,10 +125,15 @@ The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643)
 ### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). $ \text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{\small Tracer}\\{\text{\small density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2} $
+An often used approximation is (turbulent) diapycnal diffusivity via Fickian diffusion and the [Osborn relation](https://doi.org/10.1175/1520-0485(1980)010%3C0083:EOTLRO%3E2.0.CO;2). $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\partial \substack{\text{\small Tracer}\\{\text{\small density}}}}{\partial z} \right) \quad  \text{with}\quad  \kappa_\rho = \varGamma \frac{\varepsilon}{N^2} $
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
+
+$$
+ t_e^s \cdot t = eq - u + at\frac{i}{o} n^2 
+$$
+
 We are pretty sure $\varGamma$ is [:not constant](#efficiency), but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
 ---
