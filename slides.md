@@ -17,7 +17,7 @@ And little whirls have lesser whirls
 and so on to viscosity  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lewis F. Richardson, 1922](https://en.wikipedia.org/wiki/Energy_cascade\#cite_note-1)
 
-## What is turbulence anyway?
+### What is turbulence anyway?
 <!-- .slide: style="text-align: left;"> -->
 
 - <a href="https://github.com/user-attachments/assets/2b0c657b-fbc5-4917-8bfb-1cd6881f042f" data-preview-link>Chaotic movement of fluid </a> [(Klein et al, 2008)](https://doi.org/10.1175/2007JPO3773.1)
@@ -30,7 +30,7 @@ and so on to viscosity
 
 ---
 
-## Why is it important for Climate Research?
+### Why is it important for Climate Research?
 <!-- .slide: style="text-align: left;"> -->
 
 - Surface Mixing: Carbon & oxygen exchange, 
@@ -41,7 +41,7 @@ Notes: Add examples and images
 
 ---
 
-## Quantification
+### Quantification
 <!-- .slide: style="text-align: left;"> -->
 
 The rate of kinetic energy $E = \frac{1}{2} u_i u_i$ dissipating/lost to heat (per mass unit), with the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
@@ -58,7 +58,7 @@ $$
 
 ---
 
-## Some History
+### Some History
 <!-- .slide: style="text-align: left;"> -->
 
 - 1941 Kolmogorov, A. N. ()
@@ -71,16 +71,17 @@ Note: The Study of Mixing in the Ocean: A Brief History Gregg 1981 10.5670/ocean
 
 ---
 
-# :x Osborn 
+# :x Osborn1980
+tba
 
 # :x Gregg2018
-[33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency. It concludes
+The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency concludes that 
 "*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
 
-## Relation to Mixing
+### Relation to Mixing
 <!-- .slide: style="text-align: left;"> -->
 
-turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ (Osborn relation)
+turbulent diffusivity $ \kappa_\rho = \varGamma \frac{\varepsilon}{N^2}$ ([Osborn relation](#Osborn1980))
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
@@ -106,7 +107,7 @@ For example[:eddy covariance](#eddy covariance) or [:PIV](#PIV)
 # :x models
 Direct numerical simulation (DNS) of the Navier Stokes equations. 
 
-## Estimating marine turbulence
+### Estimating marine turbulence
 <!-- .slide: style="text-align: left;"> -->
 - Very few [:observational methods](#observations) or [:numerical models](#models) can resolve turbulent scales directly 
 - General need for parameterizations (in models and observations)
@@ -125,7 +126,7 @@ Diffusive coefficients in models are prescribed and not dynamically adjusted. Bu
 # :x artemics
 Development of a parameterization of internal waves in the Arctic Ocean and use in climate models to research links and feedback mechanisms between declining sea ice, wave-induced mixing, stratification and heat transport. 
 
-## What are current research questions?
+### What are current research questions?
 <!-- .slide: style="text-align: left;"> -->
 
 - Ocean mixing is almost always described as [:dynamically passive.](#passive)
@@ -140,7 +141,7 @@ Layering, Instabilities, and Mixing in Turbulent Stratified Flows,
 # :x Bennetts2024
 tba
 
-## Some quotes
+### Some quotes
 <!-- .slide: style="text-align: left;"> -->
 
 "Although there has been a large range of deeply insightful research contributions to our understanding of transition, turbulence, and irreversible mixing in stratified fluids, it still remains extremely difficult to say anything generic about mixing." [:*(Caul et al., 2021)*](#Caul2021)
@@ -149,7 +150,7 @@ tba
 
 ---
 
-## Recommended Literature
+### Recommended Literature
 <!-- .slide: style="text-align: left;"> -->
 
 - [Lecture notes (2020) by Lars Umlauf and Hans Burchard](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf)
