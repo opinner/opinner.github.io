@@ -98,9 +98,6 @@ Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to
 
 ---
 
-# :x efficiency
-<img src="/images/efficiency.png" height="150" /> 
-
 # :x Gregg2018
 The [33 page review paper](https://doi.org/10.1146/annurev-marine-121916-063643) solely about the value of the mixing efficiency concludes that 
 "*Nonetheless, observations should continue to be scaled with 0.2 until observations, laboratory experiments, and numerical simulations converge on a more accurate formulation. In the meantime, published results should include as many parameters as possible to aid in understanding efficiency and allow subsequent recalculation of turbulent diffusivity.*" 
@@ -115,7 +112,7 @@ $\text{Tracer flux} = \frac{\partial}{\partial z} \left( \kappa_\rho \frac{\part
 $$
 \text{\small mixing efficiency }\varGamma := \frac{\substack{\text{\small change in background potential energy}\newline \text{\small due to mixing}}}{\text{\small Energy expended}} \approx 0.2 
 $$
-We are pretty sure $\varGamma$ is [:not constant](#efficiency), but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
+We are pretty sure $\varGamma$ is <a data-preview-image="/images/efficiency.png"> not constant</a>, but varies over magnitudes. But we also have no consistent theory, so we are still using a value from the 80s [:(Gregg et al., 2018)](#Gregg2018)
 
 ---
 
