@@ -86,7 +86,7 @@ Assuming the flow is aligned with the x-direction and ignoring all horizontal gr
 ## How to quantify turbulence?
 <!-- .slide: style="text-align: left;"> -->
 
-Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition). One can then derive an euqation for the fluctuating part, the [:Turbulent Kinetic Energy (TKE).](#Umlauf2020)
+Kinetic energy can be split into a mean and a fluctuating part (Reynolds-decomposition). One can then derive an equation for the fluctuating part, the [:Turbulent Kinetic Energy (TKE).](#Umlauf2020)
 
 $$
 \frac{\partial \text{TKE}}{\partial t} + \frac{\partial \mathcal{T}_k}{\partial z} = P +G - \varepsilon
@@ -96,7 +96,7 @@ $$
 - buoyancy production $G$: in stable stratification, the conversion from TKE to potential energy
 - dissipation rate $\varepsilon$: conversion to heat due to small-scale shear forces 
 
-Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to heat, which has the units $\mathrm{J}\,\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\,\mathrm{kg}^{-1}$.
+Turbulence is most often quantified as $\varepsilon$, the rate of energy lost to heat, which has the units $\mathrm{J}\:\mathrm{s}^{-1}\mathrm{kg}^{-1}=\mathrm{W}\:\mathrm{kg}^{-1}$.
 
 ---
 
