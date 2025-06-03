@@ -81,7 +81,7 @@ But: Internal waves are a [:rabbit hole without bottom.](#internalwaves)
 <!-- MacKinnon2017 https://doi.org/10.1175/BAMS-D-16-0030.1 -->
 <img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:700px" align="center" data-preview-image />
 
-----
+---
 
 # :x Umlauf2020
 The TKE budget equation is taken from [eq 4.23](https://www.io-warnemuende.de/files/staff/umlauf/turbulence/turbulence.pdf#equation.4.3.23) of the lecture scripts by Umlauf and Burchard.
