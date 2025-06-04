@@ -63,7 +63,7 @@ Turbulence is the main cause of diapycnal mixing
 
 - **Surface Mixing**: carbon & oxygen exchange between atmosphere and ocean
 - **Bottom Mixing**: upwelling, benthic life
-- **Interior Mixing**: overturning circulation by transforing  water masses 
+- **Interior Mixing**: transforming  water masses, overturning circulation
 
 Most of the mixing in the ocean interior is caused by internal waves and happens over rough bathymetry or at the continental margins.
 
