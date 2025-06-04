@@ -74,7 +74,7 @@ Dirk Olbers's magnum opus *Oceanic Internal Gravity Waves* is a preprint of curr
 
 ## The problem with Internal Waves 
 <!-- .slide: style="text-align: left;"> -->
-But: Internal waves are a [:rabbit hole without bottom.](#internalwaves) 
+But: Internal waves are a [: bottomless rabbit hole](#internalwaves) 
 
 <!-- MacKinnon2017 https://doi.org/10.1175/BAMS-D-16-0030.1 -->
 <img src="https://journals.ametsoc.org/view/journals/bams/98/11/full-bams-d-16-0030.1-f1.jpg" style="width:600px" align="left" data-preview-image />
